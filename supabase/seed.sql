@@ -103,3 +103,23 @@ on conflict (id) do nothing;
 insert into public.series (id, team_id, competition_id, name, season) values
   ('00000000-0000-4000-8000-00000000a1b1', '00000000-0000-4000-8000-00000000a101', 'COMP-2026-P13', 'P13 Vårserie 2026', '2026')
 on conflict (id) do nothing;
+
+-- ---------------------------------------------------------------------------
+-- Matcher (migration 3): en spelad och en kommande, för att prova rapportering.
+-- ---------------------------------------------------------------------------
+
+insert into public.fixtures
+  (id, team_id, subteam_id, game_format, fogis_game_id, external_id, competition, competition_id,
+   kickoff, home, away, is_home, place, source)
+values
+  -- Spelad match (igår): rapporterbar.
+  ('00000000-0000-4000-8000-00000000f101', '00000000-0000-4000-8000-00000000a101',
+   '00000000-0000-4000-8000-00000000a1a1', '5v5', 'FG-1001', 'fogis:FG-1001',
+   'P13 Vårserie 2026', 'COMP-2026-P13',
+   now() - interval '1 day', 'Alfa IF P13', 'Gamma BK P13', true, 'Alfaplan 2', 'fogis'),
+  -- Kommande match (om en vecka): INTE rapporterbar än.
+  ('00000000-0000-4000-8000-00000000f102', '00000000-0000-4000-8000-00000000a101',
+   '00000000-0000-4000-8000-00000000a1a1', '5v5', 'FG-1002', 'fogis:FG-1002',
+   'P13 Vårserie 2026', 'COMP-2026-P13',
+   now() + interval '7 days', 'Delta IF P13', 'Alfa IF P13', false, 'Deltavallen', 'fogis')
+on conflict (id) do nothing;
