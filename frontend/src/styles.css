@@ -400,3 +400,68 @@ section h2 {
   margin: 0.3rem 0 0.6rem;
   padding-left: 1.2rem;
 }
+
+/* --- Förbundsvyn --- */
+.table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+}
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+.data-table th,
+.data-table td {
+  text-align: left;
+  padding: 0.5rem 0.7rem;
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+}
+.data-table th {
+  color: var(--muted);
+  font-weight: 600;
+  background: var(--surface);
+}
+.data-table tr:last-child td {
+  border-bottom: none;
+}
+
+.badge {
+  display: inline-block;
+  margin-left: 0.5rem;
+  padding: 0.1rem 0.5rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  vertical-align: middle;
+}
+.badge-warn {
+  background: color-mix(in srgb, var(--warn) 20%, transparent);
+  color: var(--warn);
+}
+
+.group-card {
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.4rem;
+}
+.group-disagree {
+  border-color: color-mix(in srgb, var(--warn) 55%, var(--border));
+}
+.report-list {
+  list-style: none;
+  padding: 0;
+  margin: 0.3rem 0 0;
+  display: grid;
+  gap: 0.35rem;
+}
+.report-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+}
+.verdict-symbol-sm {
+  font-size: 1.1rem;
+}

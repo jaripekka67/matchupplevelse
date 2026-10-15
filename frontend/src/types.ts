@@ -96,6 +96,7 @@ export type TeamSummary = {
 
 export type MatchReport = {
   fixtureId: string;
+  fogisGameId: string | null;
   kickoff: string;
   competition: string | null;
   home: string | null;
