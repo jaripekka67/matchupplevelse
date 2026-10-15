@@ -1,0 +1,14 @@
+{
+  "name": "matchupplevelse-functions-tests",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "description": "Vitest-tester för Edge Functions rena logik (handler.ts). Edge Functions körs i Deno i produktion; detta är bara för att testa den rena TypeScript-logiken i Node.",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.8"
+  }
+}
