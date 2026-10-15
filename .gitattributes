@@ -1,0 +1,9 @@
+# Normalisera radslut: Git lagrar LF, checkar ut plattformens standard.
+* text=auto eol=lf
+
+# Binärfiler lämnas orörda.
+*.png binary
+*.jpg binary
+*.ico binary
+*.woff binary
+*.woff2 binary

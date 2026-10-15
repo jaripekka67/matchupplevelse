@@ -1,0 +1,3 @@
+-- Seed för lokal utveckling. Körs av `supabase db reset`.
+-- Innehåll läggs till i Task 2 (superadmin + testförening) när rollmodellen finns.
+-- Håll detta tomt så länge så att en reset inte misslyckas mot ett schema som inte byggts än.

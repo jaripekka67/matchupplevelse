@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Build output
+frontend/dist/
+frontend/.vite/
+
+# Environment and secrets (NEVER commit these)
+.env
+.env.*
+!.env.example
+
+# Supabase local
+supabase/.temp/
+supabase/.branches/
+supabase/functions/**/.env
+
+# Logs and temporary build/verification markers
+*.log
+npm-debug.log*
+*.marker
+*.done
+ci.log
+verify.log
+install.log
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
