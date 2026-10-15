@@ -1,82 +1,79 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { getClient, hasConfig, readConfig } from './supabaseClient.ts';
+import { createBackend } from './backend.ts';
+import { useSession } from './useSession.ts';
+import { parseRoute, type Route } from './router.ts';
+import { Login } from './views/Login.tsx';
+import { Shell } from './views/Shell.tsx';
+import { Home } from './views/Home.tsx';
+import { TeamPage } from './views/TeamPage.tsx';
+import { AdminPage } from './views/AdminPage.tsx';
+import { FederationPage } from './views/FederationPage.tsx';
 
-type Status =
-  | { kind: 'checking' }
-  | { kind: 'missing-config' }
-  | { kind: 'connected' }
-  | { kind: 'error'; message: string };
-
-/**
- * Minimal startpunkt för appen. Verifierar att frontend kan nå Supabase genom att be om
- * den aktuella auth-sessionen (ett lätt anrop som inte kräver något schema). Resultatet
- * visas som anslutningsstatus – demon för Task 1.
- */
 export function App() {
-  const [status, setStatus] = useState<Status>({ kind: 'checking' });
+  const cfg = readConfig();
+  if (!hasConfig(cfg)) return <ConfigMissing />;
+  return <AppInner />;
+}
 
-  useEffect(() => {
-    const cfg = readConfig();
-    if (!hasConfig(cfg)) {
-      setStatus({ kind: 'missing-config' });
-      return;
-    }
-    let active = true;
-    getClient()
-      .auth.getSession()
-      .then(({ error }) => {
-        if (!active) return;
-        if (error) setStatus({ kind: 'error', message: error.message });
-        else setStatus({ kind: 'connected' });
-      })
-      .catch((e: unknown) => {
-        if (!active) return;
-        setStatus({ kind: 'error', message: e instanceof Error ? e.message : String(e) });
-      });
-    return () => {
-      active = false;
-    };
-  }, []);
+function AppInner() {
+  const client = useMemo(() => getClient(), []);
+  const backend = useMemo(() => createBackend(client), [client]);
+  const { loading, session, roles } = useSession(client, backend);
+  const route = useHashRoute();
+
+  if (loading) {
+    return (
+      <main className="app-shell">
+        <div className="card" role="status">
+          Laddar…
+        </div>
+      </main>
+    );
+  }
+
+  if (!session) {
+    return <Login backend={backend} />;
+  }
 
   return (
-    <main className="app-shell">
-      <h1>Matchupplevelse</h1>
-      <p className="lede">
-        Rapportera hur jämn den senaste matchen var. Appen byggs steg för steg – det här är
-        grundskelettet.
-      </p>
-      <ConnectionCard status={status} />
-    </main>
+    <Shell route={route} roles={roles} email={session.user.email} backend={backend}>
+      <Page route={route} backend={backend} roles={roles} />
+    </Shell>
   );
 }
 
-function ConnectionCard({ status }: { status: Status }) {
-  switch (status.kind) {
-    case 'checking':
-      return (
-        <div className="card" role="status">
-          <span className="dot dot-neutral" aria-hidden="true" /> Kontrollerar anslutning till Supabase…
-        </div>
-      );
-    case 'missing-config':
-      return (
-        <div className="card card-warn" role="alert">
-          <span className="dot dot-warn" aria-hidden="true" /> Konfiguration saknas. Skapa{' '}
-          <code>frontend/.env.local</code> från <code>.env.example</code> och fyll i Supabase-URL
-          och anon-nyckel från <code>supabase start</code>.
-        </div>
-      );
-    case 'connected':
-      return (
-        <div className="card card-ok" role="status">
-          <span className="dot dot-ok" aria-hidden="true" /> Ansluten till Supabase.
-        </div>
-      );
-    case 'error':
-      return (
-        <div className="card card-err" role="alert">
-          <span className="dot dot-err" aria-hidden="true" /> Kunde inte nå Supabase: {status.message}
-        </div>
-      );
+function Page({ route, backend, roles }: { route: Route; backend: ReturnType<typeof createBackend>; roles: ReturnType<typeof useSession>['roles'] }) {
+  switch (route.kind) {
+    case 'home':
+      return <Home backend={backend} />;
+    case 'team':
+      return <TeamPage teamId={route.teamId} backend={backend} />;
+    case 'admin':
+      return <AdminPage backend={backend} roles={roles} />;
+    case 'federation':
+      return <FederationPage backend={backend} />;
   }
+}
+
+function useHashRoute(): Route {
+  const [route, setRoute] = useState<Route>(() => parseRoute(window.location.hash));
+  useEffect(() => {
+    const onHash = () => setRoute(parseRoute(window.location.hash));
+    window.addEventListener('hashchange', onHash);
+    return () => window.removeEventListener('hashchange', onHash);
+  }, []);
+  return route;
+}
+
+function ConfigMissing() {
+  return (
+    <main className="app-shell">
+      <h1>Matchupplevelse</h1>
+      <div className="card card-warn" role="alert">
+        Konfiguration saknas. Skapa <code>frontend/.env.local</code> från <code>.env.example</code>{' '}
+        och fyll i Supabase-URL och anon-nyckel.
+      </div>
+    </main>
+  );
 }
