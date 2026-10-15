@@ -133,6 +133,16 @@ function createClubsApi(client: SupabaseClient) {
       const { data, error } = await client.from('clubs').select('*').order('name');
       return wrap((data ?? []).map(mapClub), error);
     },
+    // Superadmin skapar en förening (RLS kräver is_superadmin).
+    async create(name: string, slug: string): Promise<Result<Club>> {
+      const { data, error } = await client
+        .from('clubs')
+        .insert({ name, slug })
+        .select('*')
+        .single();
+      if (error) return fail(error.message);
+      return ok(mapClub(data));
+    },
   };
 }
 
@@ -157,6 +167,40 @@ function createTeamsApi(client: SupabaseClient) {
         .eq('team_id', teamId)
         .order('name');
       return wrap((data ?? []).map(mapSeries), error);
+    },
+    // Alla lag i en förening (för admin). Superadmin ser alla via RLS.
+    async teamsInClub(clubId: string): Promise<Result<Team[]>> {
+      const { data, error } = await client
+        .from('teams')
+        .select('*')
+        .eq('club_id', clubId)
+        .order('name');
+      return wrap((data ?? []).map(mapTeam), error);
+    },
+    // Föreningsadmin skapar ett lag (RLS kräver is_admin för föreningen).
+    async createTeam(clubId: string, name: string): Promise<Result<Team>> {
+      const { data, error } = await client
+        .from('teams')
+        .insert({ club_id: clubId, name })
+        .select('*')
+        .single();
+      if (error) return fail(error.message);
+      return ok(mapTeam(data));
+    },
+    // Skapar ett subteam med spelform (3v3/5v5/7v7) och valfritt FOGIS-id.
+    async createSubteam(
+      teamId: string,
+      name: string,
+      gameFormat: Subteam['gameFormat'],
+      fogisTeamId: string | null,
+    ): Promise<Result<Subteam>> {
+      const { data, error } = await client
+        .from('subteams')
+        .insert({ team_id: teamId, name, game_format: gameFormat, fogis_team_id: fogisTeamId })
+        .select('*')
+        .single();
+      if (error) return fail(error.message);
+      return ok(mapSubteam(data));
     },
   };
 }
