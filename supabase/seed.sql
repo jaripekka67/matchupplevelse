@@ -82,3 +82,24 @@ insert into public.club_members (user_id, club_id, role) values
   ('00000000-0000-4000-8000-000000000002', '00000000-0000-4000-8000-0000000000a1', 'club_admin'),
   ('00000000-0000-4000-8000-000000000003', '00000000-0000-4000-8000-0000000000a1', 'member')
 on conflict (user_id, club_id) do nothing;
+
+-- ---------------------------------------------------------------------------
+-- Lag, subteam (med FOGIS-id och spelform) och serie i Alfa IF (migration 2).
+-- ---------------------------------------------------------------------------
+
+insert into public.teams (id, club_id, name) values
+  ('00000000-0000-4000-8000-00000000a101', '00000000-0000-4000-8000-0000000000a1', 'P13')
+on conflict (id) do nothing;
+
+-- Lagledaren (ledare@test.local) är medlem i laget.
+insert into public.team_members (user_id, team_id, head_coach) values
+  ('00000000-0000-4000-8000-000000000003', '00000000-0000-4000-8000-00000000a101', true)
+on conflict (user_id, team_id) do nothing;
+
+insert into public.subteams (id, team_id, name, game_format, fogis_team_id) values
+  ('00000000-0000-4000-8000-00000000a1a1', '00000000-0000-4000-8000-00000000a101', 'P13 Lag 1', '5v5', '123456')
+on conflict (id) do nothing;
+
+insert into public.series (id, team_id, competition_id, name, season) values
+  ('00000000-0000-4000-8000-00000000a1b1', '00000000-0000-4000-8000-00000000a101', 'COMP-2026-P13', 'P13 Vårserie 2026', '2026')
+on conflict (id) do nothing;
