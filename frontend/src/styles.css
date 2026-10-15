@@ -238,3 +238,95 @@ button {
 .team-card:hover {
   border-color: var(--accent);
 }
+
+/* --- Matchvyn --- */
+section {
+  margin-top: 1.6rem;
+}
+section h2 {
+  font-size: 1.1rem;
+  margin: 0 0 0.7rem;
+}
+
+.match-grid {
+  display: grid;
+  gap: 0.8rem;
+  grid-template-columns: 1fr;
+}
+
+.match-card-full {
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.5rem;
+}
+.match-highlight {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--accent) 40%, transparent);
+}
+.match-title {
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+.match-meta {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+.match-note {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+.match-saved {
+  color: var(--ok);
+}
+.match-upcoming {
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.3rem;
+  opacity: 0.85;
+}
+
+/* 3-stegsväljaren */
+.verdict-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+  margin-top: 0.4rem;
+}
+.verdict-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.8rem 0.5rem;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--bg);
+  color: var(--text);
+  cursor: pointer;
+  text-align: center;
+}
+.verdict-btn:hover:not(:disabled) {
+  border-color: var(--accent);
+}
+.verdict-btn:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+.verdict-selected {
+  border-color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 18%, transparent);
+}
+.verdict-symbol {
+  font-size: 1.5rem;
+  line-height: 1;
+}
+.verdict-label {
+  font-size: 0.82rem;
+  color: var(--text);
+}
+
+@media (max-width: 480px) {
+  .verdict-label {
+    font-size: 0.75rem;
+  }
+}
