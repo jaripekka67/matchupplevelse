@@ -6,8 +6,13 @@
 # command = byggkommandot, körs i base-mappen
 [build]
   base = "frontend"
-  command = "npm run build"
+  command = "npm ci && npm run build"
   publish = "dist"
+
+# Pinna Node-versionen så Netlify bygger med samma major som projektet kräver (24).
+# Fel/äldre Node-default kan ge långsam eller trasig install (vite@7/vitest@2).
+[build.environment]
+  NODE_VERSION = "24"
 
 # SPA-fallback: appen använder hash-routing, men detta säkerställer att alla sökvägar
 # serverar index.html så att en direkt träff på t.ex. "/" alltid fungerar.
