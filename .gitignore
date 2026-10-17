@@ -23,6 +23,16 @@ npm-debug.log*
 ci.log
 verify.log
 install.log
+# Lösa probe-/logg-utskrifter från terminalkörningar (ska aldrig committas)
+probe*.txt
+ct*.txt
+npm-*.txt
+rc.txt
+tsc-out*.txt
+build-out.txt
+test-snap.txt
+lock-log.txt
+imp*.txt
 
 # Editor / OS
 .DS_Store
