@@ -6,15 +6,20 @@ import {
   sortSeries,
   sortTeams,
   evenPercent,
+  federationStandings,
+  ageGroupOf,
+  groupSeries,
 } from './overviewLogic.ts';
 import type { MatchReport, SeriesSummary, TeamSummary, Verdict } from './types.ts';
 
 function rep(over: Partial<MatchReport> = {}): MatchReport {
   return {
     fixtureId: 'f1',
+    teamId: 't1',
     fogisGameId: 'FG-1',
     kickoff: '2026-05-01T10:00',
     competition: 'P13 Vår',
+    competitionId: 'C1',
     home: 'Alfa P13',
     away: 'Beta P13',
     teamName: 'Alfa P13',
@@ -92,6 +97,68 @@ describe('countDisagreements', () => {
       rep({ fixtureId: 'd', fogisGameId: 'FG-2', verdict: 2 }), // enig
     ]);
     expect(countDisagreements(groups)).toBe(1);
+  });
+});
+
+describe('federationStandings', () => {
+  it('räknar per lag från dominant (us/even/opp)', () => {
+    const rows = federationStandings([
+      rep({ teamId: 'alfa', teamName: 'Alfa P13', clubName: 'Alfa IF', dominant: 'us' }),
+      rep({ teamId: 'alfa', teamName: 'Alfa P13', clubName: 'Alfa IF', dominant: 'even' }),
+      rep({ teamId: 'beta', teamName: 'Beta P13', clubName: 'Beta IF', dominant: 'opp' }),
+    ]);
+    const alfa = rows.find((r) => r.teamId === 'alfa')!;
+    expect(alfa).toEqual({
+      teamId: 'alfa',
+      teamName: 'Alfa P13',
+      clubName: 'Alfa IF',
+      reports: 2,
+      wonBig: 1,
+      even: 1,
+      lostBig: 0,
+    });
+    const beta = rows.find((r) => r.teamId === 'beta')!;
+    expect(beta.lostBig).toBe(1);
+    expect(beta.reports).toBe(1);
+  });
+
+  it('grupperar per teamId', () => {
+    const rows = federationStandings([
+      rep({ teamId: 'alfa', dominant: 'us' }),
+      rep({ teamId: 'alfa', dominant: 'us' }),
+    ]);
+    expect(rows.length).toBe(1);
+    expect(rows[0].wonBig).toBe(2);
+  });
+
+  it("unknown räknas som rapport men varken vinst/jämn/förlust", () => {
+    const rows = federationStandings([rep({ dominant: 'unknown' })]);
+    expect(rows[0].reports).toBe(1);
+    expect(rows[0].wonBig + rows[0].even + rows[0].lostBig).toBe(0);
+  });
+
+  it('sorterar på flest storsegrar', () => {
+    const rows = federationStandings([
+      rep({ teamId: 'lag', teamName: 'Låg', dominant: 'even' }),
+      rep({ teamId: 'hog', teamName: 'Hög', dominant: 'us' }),
+    ]);
+    expect(rows[0].teamName).toBe('Hög');
+  });
+});
+
+describe('ageGroupOf / groupSeries (förbund)', () => {
+  it('härleder kull ur serienamn', () => {
+    expect(ageGroupOf('F10 C Mellersta/Västra')).toBe('F10');
+    expect(ageGroupOf('okänd')).toBe('Övrigt');
+  });
+  it('grupperar och sorterar B före C, Övrigt sist', () => {
+    const groups = groupSeries([
+      { name: 'F10 C' },
+      { name: 'F10 B' },
+      { name: 'Träningsmatcher' },
+    ]);
+    expect(groups.map((g) => g.label)).toEqual(['F10', 'Övrigt']);
+    expect(groups[0].seriesIndices).toEqual([1, 0]); // B (1) före C (0)
   });
 });
 

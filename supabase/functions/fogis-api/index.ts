@@ -10,9 +10,8 @@
 import { createClient, type SupabaseClient } from 'npm:@supabase/supabase-js@2';
 import { handleFogis, type FogisDeps } from './handler.ts';
 
-// Bas-URL för FOGIS förenings-API. Verifiera mot:
-// https://api-fogis-association.developer.azure-api.net/api-details#api=fogistemplates-api
-const BASE = 'https://api-fogis-association.svenskfotboll.se';
+// Bas-URL för FOGIS förenings-API.
+const BASE = 'https://forening-api.svenskfotboll.se';
 
 const url = Deno.env.get('SUPABASE_URL') ?? '';
 const anonKey = Deno.env.get('SUPABASE_ANON_KEY') ?? '';

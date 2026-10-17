@@ -44,6 +44,51 @@ h1 {
   margin: 0 0 1.5rem;
 }
 
+/* --- Välkomstsida (splash) --- */
+.welcome {
+  text-align: center;
+  padding-top: 3rem;
+}
+.hero-art {
+  width: 100%;
+  max-width: 480px;
+  height: auto;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+  display: block;
+  margin: 0 auto 1.5rem;
+}
+.welcome-title {
+  margin: 0 0 0.3rem;
+}
+.welcome-tagline {
+  color: var(--muted);
+  max-width: 42ch;
+  margin: 0 auto 1.4rem;
+}
+.welcome-scale {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1.8rem;
+}
+.welcome-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.4rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  font-size: 0.9rem;
+}
+.welcome-cta {
+  font-size: 1.05rem;
+  padding: 0.7rem 2rem;
+}
+
 .card {
   display: flex;
   align-items: center;
@@ -347,6 +392,20 @@ section h2 {
 .team-admin h4 {
   margin: 0 0 0.4rem;
 }
+.team-admin-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+.team-admin-actions {
+  display: flex;
+  gap: 0.8rem;
+}
+.link-danger {
+  color: #c0392b;
+}
 .subteam-list {
   list-style: none;
   padding: 0;
@@ -385,12 +444,54 @@ section h2 {
   border-radius: 8px;
   padding: 0.5rem 0.8rem;
 }
-.import-box summary {
+.import-box summary,
+.members-box summary {
   cursor: pointer;
   color: var(--accent);
 }
-.import-body {
+.import-body,
+.members-body {
   margin-top: 0.7rem;
+}
+.members-box {
+  margin-top: 0.6rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.5rem 0.8rem;
+}
+.member-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0.6rem;
+  font-size: 0.9rem;
+}
+.member-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.25rem 0;
+  border-bottom: 1px solid var(--border);
+}
+.member-list li:last-child {
+  border-bottom: none;
+}
+.invite-list {
+  margin-bottom: 0.6rem;
+}
+.invite-list li span {
+  color: var(--muted);
+  font-style: italic;
+}
+.checkbox-label {
+  flex-direction: row !important;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.9rem !important;
+}
+.muted {
+  color: var(--muted, #777);
+  font-size: 0.9rem;
 }
 .preview {
   margin-top: 0.6rem;
@@ -445,6 +546,72 @@ section h2 {
   flex-direction: column;
   align-items: stretch;
   gap: 0.4rem;
+}
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  border-bottom: 2px solid var(--border);
+  margin-bottom: 1rem;
+}
+.tabs .tab {
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -2px;
+  padding: 0.5rem 0.9rem;
+  cursor: pointer;
+  color: var(--text);
+  font: inherit;
+  border-radius: 0;
+}
+.tabs .tab:hover {
+  color: var(--accent);
+}
+.tabs .tab-active {
+  border-bottom-color: var(--accent);
+  color: var(--accent);
+  font-weight: 600;
+}
+.subtabs {
+  border-bottom-width: 1px;
+  margin-bottom: 0.8rem;
+}
+.subtabs .tab {
+  padding: 0.35rem 0.7rem;
+  font-size: 0.9rem;
+}
+.series-tabs .tab {
+  color: var(--muted);
+}
+.series-tabs .tab-active {
+  color: var(--accent);
+}
+.series-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+.demo-summary p {
+  margin: 0.3rem 0 0.6rem;
+}
+.demo-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+}
+.demo-matches-head {
+  margin: 1rem 0 0.4rem;
+}
+.demo-team-row {
+  margin-top: 0.5rem;
+}
+.demo-team-name {
+  font-size: 0.9rem;
+  margin-bottom: 0.2rem;
 }
 .group-disagree {
   border-color: color-mix(in srgb, var(--warn) 55%, var(--border));

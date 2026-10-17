@@ -18,6 +18,34 @@ export type Club = {
   slug: string;
 };
 
+/** En medlem i en förening (med e-post, bara synlig för admin). */
+export type ClubMember = {
+  userId: string;
+  email: string;
+  role: ClubRole;
+};
+
+/** En ledare i ett lag (med e-post, bara synlig för admin). */
+export type TeamMember = {
+  userId: string;
+  email: string;
+  headCoach: boolean;
+};
+
+/** En väntande föreningsinbjudan (personen har inget konto än). */
+export type ClubInvite = {
+  id: string;
+  email: string;
+  role: ClubRole;
+};
+
+/** En väntande laginbjudan (personen har inget konto än). */
+export type TeamInvite = {
+  id: string;
+  email: string;
+  headCoach: boolean;
+};
+
 export type Team = {
   id: string;
   clubId: string;
@@ -58,7 +86,7 @@ export type Fixture = {
   source: string;
 };
 
-/** Lagledarens rapport om en match. 1 = hemma vann stort, 2 = jämn, 3 = borta vann stort. */
+/** Ledarens rapport om en match. 1 = hemma vann stort, 2 = jämn, 3 = borta vann stort. */
 export type Verdict = 1 | 2 | 3;
 
 export type MatchEvenness = {
@@ -96,9 +124,11 @@ export type TeamSummary = {
 
 export type MatchReport = {
   fixtureId: string;
+  teamId: string;
   fogisGameId: string | null;
   kickoff: string;
   competition: string | null;
+  competitionId: string | null;
   home: string | null;
   away: string | null;
   teamName: string;

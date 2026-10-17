@@ -1,0 +1,4132 @@
+{
+  "version": 1,
+  "series": [
+    {
+      "name": "F10 C Mellersta/Västra",
+      "matches": [
+        {
+          "matchNo": "1",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "1",
+          "home": "BK Zeros F16 Vit",
+          "away": "Rimforsa IF F15/16",
+          "kickoff": "2026-05-02T11:30"
+        },
+        {
+          "matchNo": "2",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "1",
+          "home": "Kisa BK F2016",
+          "away": "Smedby AIS F2016 Vit",
+          "kickoff": "2026-05-03"
+        },
+        {
+          "matchNo": "3",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "1",
+          "home": "BK Ljungsbro F16/17 Svart",
+          "away": "Linköping BK Tinnis /LBK Gottfridsberg",
+          "kickoff": "2026-05-03T10:00"
+        },
+        {
+          "matchNo": "4",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "1",
+          "home": "Malmslätts AIK",
+          "away": "BK Derby F- 16/17 F-10",
+          "kickoff": "2026-05-03T10:00"
+        },
+        {
+          "matchNo": "5",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "1",
+          "home": "Vadstena GIF 1",
+          "away": "Hemgårdarnas BK",
+          "kickoff": "2026-05-03T10:00"
+        },
+        {
+          "matchNo": "6",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "2",
+          "home": "Smedby AIS F2016 Vit",
+          "away": "BK Zeros F16 Vit",
+          "kickoff": "2026-05-10"
+        },
+        {
+          "matchNo": "7",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "2",
+          "home": "Hemgårdarnas BK",
+          "away": "Kisa BK F2016",
+          "kickoff": "2026-05-10T10:00"
+        },
+        {
+          "matchNo": "8",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "2",
+          "home": "Linköping BK Tinnis /LBK Gottfridsberg",
+          "away": "Malmslätts AIK",
+          "kickoff": "2026-05-10T11:00"
+        },
+        {
+          "matchNo": "9",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "2",
+          "home": "BK Derby F- 16/17 F-10",
+          "away": "Vadstena GIF 1",
+          "kickoff": "2026-05-10T13:00"
+        },
+        {
+          "matchNo": "10",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "2",
+          "home": "Rimforsa IF F15/16",
+          "away": "BK Ljungsbro F16/17 Svart",
+          "kickoff": "2026-05-10T16:00"
+        },
+        {
+          "matchNo": "11",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "3",
+          "home": "Malmslätts AIK",
+          "away": "Smedby AIS F2016 Vit",
+          "kickoff": "2026-05-17"
+        },
+        {
+          "matchNo": "12",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "3",
+          "home": "BK Ljungsbro F16/17 Svart",
+          "away": "BK Zeros F16 Vit",
+          "kickoff": "2026-05-17T10:00"
+        },
+        {
+          "matchNo": "13",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "3",
+          "home": "Kisa BK F2016",
+          "away": "Rimforsa IF F15/16",
+          "kickoff": "2026-05-17T10:00"
+        },
+        {
+          "matchNo": "14",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "3",
+          "home": "Vadstena GIF 1",
+          "away": "Linköping BK Tinnis /LBK Gottfridsberg",
+          "kickoff": "2026-05-17T12:00"
+        },
+        {
+          "matchNo": "15",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "3",
+          "home": "BK Derby F- 16/17 F-10",
+          "away": "Hemgårdarnas BK",
+          "kickoff": "2026-05-17T13:00"
+        },
+        {
+          "matchNo": "16",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "4",
+          "home": "Rimforsa IF F15/16",
+          "away": "Vadstena GIF 1",
+          "kickoff": "2026-05-23T10:00"
+        },
+        {
+          "matchNo": "17",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "4",
+          "home": "Smedby AIS F2016 Vit",
+          "away": "BK Ljungsbro F16/17 Svart",
+          "kickoff": "2026-05-24"
+        },
+        {
+          "matchNo": "18",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "4",
+          "home": "Hemgårdarnas BK",
+          "away": "Malmslätts AIK",
+          "kickoff": "2026-05-24T10:00"
+        },
+        {
+          "matchNo": "19",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "4",
+          "home": "Linköping BK Tinnis /LBK Gottfridsberg",
+          "away": "BK Derby F- 16/17 F-10",
+          "kickoff": "2026-05-24T11:00"
+        },
+        {
+          "matchNo": "20",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "4",
+          "home": "BK Zeros F16 Vit",
+          "away": "Kisa BK F2016",
+          "kickoff": "2026-05-24T11:30"
+        },
+        {
+          "matchNo": "21",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "5",
+          "home": "BK Derby F- 16/17 F-10",
+          "away": "Rimforsa IF F15/16",
+          "kickoff": "2026-05-30T12:00"
+        },
+        {
+          "matchNo": "22",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "5",
+          "home": "Vadstena GIF 1",
+          "away": "Smedby AIS F2016 Vit",
+          "kickoff": "2026-05-31"
+        },
+        {
+          "matchNo": "23",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "5",
+          "home": "Hemgårdarnas BK",
+          "away": "Linköping BK Tinnis /LBK Gottfridsberg",
+          "kickoff": "2026-05-31T10:00"
+        },
+        {
+          "matchNo": "24",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "5",
+          "home": "Kisa BK F2016",
+          "away": "BK Ljungsbro F16/17 Svart",
+          "kickoff": "2026-05-31T11:00"
+        },
+        {
+          "matchNo": "25",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "5",
+          "home": "Malmslätts AIK",
+          "away": "BK Zeros F16 Vit",
+          "kickoff": "2026-05-31T15:00"
+        },
+        {
+          "matchNo": "26",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "6",
+          "home": "Vadstena GIF 1",
+          "away": "BK Zeros F16 Vit",
+          "kickoff": "2026-06-06T10:00"
+        },
+        {
+          "matchNo": "27",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "6",
+          "home": "Linköping BK Tinnis /LBK Gottfridsberg",
+          "away": "Kisa BK F2016",
+          "kickoff": "2026-06-06T11:00"
+        },
+        {
+          "matchNo": "28",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "6",
+          "home": "Smedby AIS F2016 Vit",
+          "away": "BK Derby F- 16/17 F-10",
+          "kickoff": "2026-06-07"
+        },
+        {
+          "matchNo": "29",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "6",
+          "home": "BK Ljungsbro F16/17 Svart",
+          "away": "Malmslätts AIK",
+          "kickoff": "2026-06-07T12:00"
+        },
+        {
+          "matchNo": "30",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "6",
+          "home": "Rimforsa IF F15/16",
+          "away": "Hemgårdarnas BK",
+          "kickoff": "2026-06-07T13:30"
+        },
+        {
+          "matchNo": "31",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "7",
+          "home": "Linköping BK Tinnis /LBK Gottfridsberg",
+          "away": "Smedby AIS F2016 Vit",
+          "kickoff": "2026-06-14"
+        },
+        {
+          "matchNo": "32",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "7",
+          "home": "Hemgårdarnas BK",
+          "away": "BK Zeros F16 Vit",
+          "kickoff": "2026-06-14T10:00"
+        },
+        {
+          "matchNo": "33",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "7",
+          "home": "Malmslätts AIK",
+          "away": "Rimforsa IF F15/16",
+          "kickoff": "2026-06-14T10:00"
+        },
+        {
+          "matchNo": "34",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "7",
+          "home": "Vadstena GIF 1",
+          "away": "Kisa BK F2016",
+          "kickoff": "2026-06-14T12:00"
+        },
+        {
+          "matchNo": "35",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "7",
+          "home": "BK Derby F- 16/17 F-10",
+          "away": "BK Ljungsbro F16/17 Svart",
+          "kickoff": "2026-06-14T14:00"
+        },
+        {
+          "matchNo": "36",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "8",
+          "home": "Rimforsa IF F15/16",
+          "away": "Linköping BK Tinnis /LBK Gottfridsberg",
+          "kickoff": "2026-08-08T11:00"
+        },
+        {
+          "matchNo": "37",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "8",
+          "home": "BK Ljungsbro F16/17 Svart",
+          "away": "Vadstena GIF 1",
+          "kickoff": "2026-08-09T10:00"
+        },
+        {
+          "matchNo": "38",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "8",
+          "home": "Kisa BK F2016",
+          "away": "Malmslätts AIK",
+          "kickoff": "2026-08-09T11:00"
+        },
+        {
+          "matchNo": "39",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "8",
+          "home": "BK Zeros F16 Vit",
+          "away": "BK Derby F- 16/17 F-10",
+          "kickoff": "2026-08-09T13:30"
+        },
+        {
+          "matchNo": "40",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "8",
+          "home": "Smedby AIS F2016 Vit",
+          "away": "Hemgårdarnas BK",
+          "kickoff": "2026-08-26T18:00"
+        },
+        {
+          "matchNo": "41",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "9",
+          "home": "Linköping BK Tinnis /LBK Gottfridsberg",
+          "away": "BK Zeros F16 Vit",
+          "kickoff": "2026-08-15T11:00"
+        },
+        {
+          "matchNo": "42",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "9",
+          "home": "Hemgårdarnas BK",
+          "away": "BK Ljungsbro F16/17 Svart",
+          "kickoff": "2026-08-15T13:00"
+        },
+        {
+          "matchNo": "43",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "9",
+          "home": "BK Derby F- 16/17 F-10",
+          "away": "Kisa BK F2016",
+          "kickoff": "2026-08-16T14:00"
+        },
+        {
+          "matchNo": "44",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "9",
+          "home": "Vadstena GIF 1",
+          "away": "Malmslätts AIK",
+          "kickoff": "2026-08-16T14:00"
+        },
+        {
+          "matchNo": "45",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "9",
+          "home": "Rimforsa IF F15/16",
+          "away": "Smedby AIS F2016 Vit",
+          "kickoff": "2026-08-16T15:00"
+        },
+        {
+          "matchNo": "46",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "10",
+          "home": "Malmslätts AIK",
+          "away": "Linköping BK Tinnis /LBK Gottfridsberg",
+          "kickoff": "2026-08-20T18:00"
+        },
+        {
+          "matchNo": "47",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "10",
+          "home": "Vadstena GIF 1",
+          "away": "BK Derby F- 16/17 F-10",
+          "kickoff": "2026-08-22T14:00"
+        },
+        {
+          "matchNo": "48",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "10",
+          "home": "BK Ljungsbro F16/17 Svart",
+          "away": "Rimforsa IF F15/16",
+          "kickoff": "2026-08-23T10:00"
+        },
+        {
+          "matchNo": "49",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "10",
+          "home": "Kisa BK F2016",
+          "away": "Hemgårdarnas BK",
+          "kickoff": "2026-08-23T13:00"
+        },
+        {
+          "matchNo": "50",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "10",
+          "home": "BK Zeros F16 Vit",
+          "away": "Smedby AIS F2016 Vit",
+          "kickoff": "2026-08-23T14:00"
+        },
+        {
+          "matchNo": "51",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "11",
+          "home": "Linköping BK Tinnis /LBK Gottfridsberg",
+          "away": "BK Ljungsbro F16/17 Svart",
+          "kickoff": "2026-08-29T11:00"
+        },
+        {
+          "matchNo": "52",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "11",
+          "home": "Rimforsa IF F15/16",
+          "away": "BK Zeros F16 Vit",
+          "kickoff": "2026-08-29T12:00"
+        },
+        {
+          "matchNo": "53",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "11",
+          "home": "Hemgårdarnas BK",
+          "away": "Vadstena GIF 1",
+          "kickoff": "2026-08-30T10:00"
+        },
+        {
+          "matchNo": "54",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "11",
+          "home": "Smedby AIS F2016 Vit",
+          "away": "Kisa BK F2016",
+          "kickoff": "2026-08-30T13:00"
+        },
+        {
+          "matchNo": "55",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "11",
+          "home": "BK Derby F- 16/17 F-10",
+          "away": "Malmslätts AIK",
+          "kickoff": "2026-08-30T15:00"
+        },
+        {
+          "matchNo": "56",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "12",
+          "home": "Vadstena GIF 1",
+          "away": "Rimforsa IF F15/16",
+          "kickoff": "2026-09-05T14:00"
+        },
+        {
+          "matchNo": "57",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "12",
+          "home": "BK Ljungsbro F16/17 Svart",
+          "away": "Smedby AIS F2016 Vit",
+          "kickoff": "2026-09-06T10:00"
+        },
+        {
+          "matchNo": "58",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "12",
+          "home": "Malmslätts AIK",
+          "away": "Hemgårdarnas BK",
+          "kickoff": "2026-09-06T11:00"
+        },
+        {
+          "matchNo": "59",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "12",
+          "home": "BK Derby F- 16/17 F-10",
+          "away": "Linköping BK Tinnis /LBK Gottfridsberg",
+          "kickoff": "2026-09-06T12:00"
+        },
+        {
+          "matchNo": "60",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "12",
+          "home": "Kisa BK F2016",
+          "away": "BK Zeros F16 Vit",
+          "kickoff": "2026-09-06T12:00"
+        },
+        {
+          "matchNo": "61",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "13",
+          "home": "Linköping BK Tinnis /LBK Gottfridsberg",
+          "away": "Vadstena GIF 1",
+          "kickoff": "2026-09-12T11:00"
+        },
+        {
+          "matchNo": "62",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "13",
+          "home": "BK Zeros F16 Vit",
+          "away": "BK Ljungsbro F16/17 Svart",
+          "kickoff": "2026-09-12T11:30"
+        },
+        {
+          "matchNo": "63",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "13",
+          "home": "Hemgårdarnas BK",
+          "away": "BK Derby F- 16/17 F-10",
+          "kickoff": "2026-09-13T10:00"
+        },
+        {
+          "matchNo": "64",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "13",
+          "home": "Rimforsa IF F15/16",
+          "away": "Kisa BK F2016",
+          "kickoff": "2026-09-13T10:00"
+        },
+        {
+          "matchNo": "65",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "13",
+          "home": "Smedby AIS F2016 Vit",
+          "away": "Malmslätts AIK",
+          "kickoff": "2026-09-13T11:00"
+        },
+        {
+          "matchNo": "66",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "14",
+          "home": "BK Zeros F16 Vit",
+          "away": "Vadstena GIF 1",
+          "kickoff": "2026-09-19T12:00"
+        },
+        {
+          "matchNo": "67",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "14",
+          "home": "BK Derby F- 16/17 F-10",
+          "away": "Smedby AIS F2016 Vit",
+          "kickoff": "2026-09-19T13:00"
+        },
+        {
+          "matchNo": "68",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "14",
+          "home": "Hemgårdarnas BK",
+          "away": "Rimforsa IF F15/16",
+          "kickoff": "2026-09-20T10:00"
+        },
+        {
+          "matchNo": "69",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "14",
+          "home": "Malmslätts AIK",
+          "away": "BK Ljungsbro F16/17 Svart",
+          "kickoff": "2026-09-20T10:00"
+        },
+        {
+          "matchNo": "70",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "14",
+          "home": "Kisa BK F2016",
+          "away": "Linköping BK Tinnis /LBK Gottfridsberg",
+          "kickoff": "2026-09-20T11:30"
+        },
+        {
+          "matchNo": "71",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "15",
+          "home": "Rimforsa IF F15/16",
+          "away": "BK Derby F- 16/17 F-10",
+          "kickoff": "2026-09-26T10:00"
+        },
+        {
+          "matchNo": "72",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "15",
+          "home": "Linköping BK Tinnis /LBK Gottfridsberg",
+          "away": "Hemgårdarnas BK",
+          "kickoff": "2026-09-26T11:00"
+        },
+        {
+          "matchNo": "73",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "15",
+          "home": "BK Zeros F16 Vit",
+          "away": "Malmslätts AIK",
+          "kickoff": "2026-09-26T13:00"
+        },
+        {
+          "matchNo": "74",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "15",
+          "home": "Smedby AIS F2016 Vit",
+          "away": "Vadstena GIF 1",
+          "kickoff": "2026-09-26T14:30"
+        },
+        {
+          "matchNo": "75",
+          "competition": "F10 C Mellersta/Västra",
+          "round": "15",
+          "home": "BK Ljungsbro F16/17 Svart",
+          "away": "Kisa BK F2016",
+          "kickoff": "2026-09-27T10:00"
+        }
+      ],
+      "verdicts": [
+        {
+          "home": 1,
+          "away": 2
+        },
+        {
+          "home": 3,
+          "away": 2
+        },
+        {
+          "home": 1,
+          "away": 1
+        },
+        {
+          "home": 1,
+          "away": 1
+        },
+        {
+          "home": 1,
+          "away": 2
+        },
+        {
+          "home": 3,
+          "away": 1
+        },
+        {
+          "home": 1,
+          "away": 3
+        },
+        {
+          "home": 2,
+          "away": 1
+        },
+        {
+          "home": 2,
+          "away": 2
+        },
+        {
+          "home": 3,
+          "away": 1
+        },
+        {
+          "home": 1,
+          "away": 3
+        },
+        {
+          "home": 1,
+          "away": 1
+        },
+        {
+          "home": 3,
+          "away": 3
+        },
+        {
+          "home": 1,
+          "away": 1
+        },
+        {
+          "home": 3,
+          "away": 1
+        },
+        {
+          "home": 2,
+          "away": 2
+        },
+        {
+          "home": 1,
+          "away": 3
+        },
+        {
+          "home": 1,
+          "away": 1
+        },
+        {
+          "home": 2,
+          "away": 2
+        },
+        {
+          "home": 2,
+          "away": 3
+        },
+        {
+          "home": 2,
+          "away": 2
+        },
+        {
+          "home": 1,
+          "away": 1
+        },
+        {
+          "home": 3,
+          "away": 2
+        },
+        {
+          "home": 1,
+          "away": 3
+        },
+        {
+          "home": 2,
+          "away": 1
+        },
+        {
+          "home": 3,
+          "away": 3
+        },
+        {
+          "home": 1,
+          "away": 1
+        },
+        {
+          "home": 1,
+          "away": 3
+        },
+        {
+          "home": 3,
+          "away": 2
+        },
+        {
+          "home": 3,
+          "away": 2
+        },
+        {
+          "home": 2,
+          "away": 3
+        },
+        {
+          "home": 3,
+          "away": 1
+        },
+        {
+          "home": 1,
+          "away": 2
+        },
+        {
+          "home": 2,
+          "away": 3
+        },
+        {
+          "home": 3,
+          "away": 3
+        },
+        {
+          "home": 1,
+          "away": 3
+        },
+        {
+          "home": 3,
+          "away": 3
+        },
+        {
+          "home": 3,
+          "away": 2
+        },
+        {
+          "home": 2,
+          "away": 1
+        },
+        {
+          "home": 2,
+          "away": 1
+        },
+        {
+          "home": 1,
+          "away": 2
+        },
+        {
+          "home": 2,
+          "away": 1
+        },
+        {
+          "home": 1,
+          "away": 2
+        },
+        {
+          "home": 3,
+          "away": 3
+        },
+        {
+          "home": 2,
+          "away": 1
+        },
+        {
+          "home": 3,
+          "away": 2
+        },
+        {
+          "home": 2,
+          "away": 2
+        },
+        {
+          "home": 1,
+          "away": 2
+        },
+        {
+          "home": 2,
+          "away": 3
+        },
+        {
+          "home": 3,
+          "away": 3
+        },
+        {
+          "home": 1,
+          "away": 3
+        },
+        {
+          "home": 1,
+          "away": 2
+        },
+        {
+          "home": 3,
+          "away": 3
+        },
+        {
+          "home": 3,
+          "away": 1
+        },
+        {
+          "home": 3,
+          "away": 3
+        },
+        {
+          "home": 3,
+          "away": 3
+        },
+        {
+          "home": 1,
+          "away": 2
+        },
+        {
+          "home": 1,
+          "away": 1
+        },
+        {
+          "home": 1,
+          "away": 3
+        },
+        {
+          "home": 1,
+          "away": 3
+        },
+        {
+          "home": 2,
+          "away": 1
+        },
+        {
+          "home": 2,
+          "away": 2
+        },
+        {
+          "home": 1,
+          "away": 2
+        },
+        {
+          "home": 3,
+          "away": 3
+        },
+        {
+          "home": 1,
+          "away": 2
+        },
+        {
+          "home": 3,
+          "away": 2
+        },
+        {
+          "home": 3,
+          "away": 3
+        },
+        {
+          "home": 3,
+          "away": 1
+        },
+        {
+          "home": 2,
+          "away": 3
+        },
+        {
+          "home": 1,
+          "away": 3
+        },
+        {
+          "home": 3,
+          "away": 1
+        },
+        {
+          "home": 1,
+          "away": 1
+        },
+        {
+          "home": 1,
+          "away": 2
+        },
+        {
+          "home": 1,
+          "away": 1
+        },
+        {
+          "home": 2,
+          "away": 1
+        }
+      ]
+    },
+    {
+      "name": "F10 C Östra",
+      "matches": [
+        {
+          "matchNo": "1",
+          "competition": "F10 C Östra",
+          "round": "1",
+          "home": "Kimstad GoIF F16/17",
+          "away": "Söderköpings IK F2016-17",
+          "kickoff": "2026-05-01T10:00"
+        },
+        {
+          "matchNo": "2",
+          "competition": "F10 C Östra",
+          "round": "1",
+          "home": "Svärtinge SK Blå",
+          "away": "Krokeks IF F 2016 lag 1 Krokeks IF F 2016",
+          "kickoff": "2026-05-02T10:00"
+        },
+        {
+          "matchNo": "3",
+          "competition": "F10 C Östra",
+          "round": "1",
+          "home": "Eneby BK F2016/17 Vit",
+          "away": "Sonstorps IK",
+          "kickoff": "2026-05-03T11:15"
+        },
+        {
+          "matchNo": "4",
+          "competition": "F10 C Östra",
+          "round": "1",
+          "home": "Lotorps IF Blå, Flickor 9 år - Sammandrag 2025",
+          "away": "Bråvalla IK Kustbollen F16",
+          "kickoff": "2026-05-03T15:00"
+        },
+        {
+          "matchNo": "5",
+          "competition": "F10 C Östra",
+          "round": "1",
+          "home": "Västra Husby IF F16",
+          "away": "IFK Wreta Kloster Flickor F16/17",
+          "kickoff": "2026-05-03T16:00"
+        },
+        {
+          "matchNo": "6",
+          "competition": "F10 C Östra",
+          "round": "2",
+          "home": "IFK Wreta Kloster Flickor F16/17",
+          "away": "Svärtinge SK Blå",
+          "kickoff": "2026-05-09T10:00"
+        },
+        {
+          "matchNo": "7",
+          "competition": "F10 C Östra",
+          "round": "2",
+          "home": "Bråvalla IK Kustbollen F16",
+          "away": "Västra Husby IF F16",
+          "kickoff": "2026-05-09T10:00"
+        },
+        {
+          "matchNo": "8",
+          "competition": "F10 C Östra",
+          "round": "2",
+          "home": "Krokeks IF F 2016 lag 1 Krokeks IF F 2016",
+          "away": "Kimstad GoIF F16/17",
+          "kickoff": "2026-05-10T10:00"
+        },
+        {
+          "matchNo": "9",
+          "competition": "F10 C Östra",
+          "round": "2",
+          "home": "Söderköpings IK F2016-17",
+          "away": "Eneby BK F2016/17 Vit",
+          "kickoff": "2026-05-10T11:00"
+        },
+        {
+          "matchNo": "10",
+          "competition": "F10 C Östra",
+          "round": "2",
+          "home": "Sonstorps IK",
+          "away": "Lotorps IF Blå, Flickor 9 år - Sammandrag 2025",
+          "kickoff": "2026-05-10T11:00"
+        },
+        {
+          "matchNo": "11",
+          "competition": "F10 C Östra",
+          "round": "3",
+          "home": "Kimstad GoIF F16/17",
+          "away": "Bråvalla IK Kustbollen F16",
+          "kickoff": "2026-05-17T10:30"
+        },
+        {
+          "matchNo": "12",
+          "competition": "F10 C Östra",
+          "round": "3",
+          "home": "Söderköpings IK F2016-17",
+          "away": "Sonstorps IK",
+          "kickoff": "2026-05-17T11:00"
+        },
+        {
+          "matchNo": "13",
+          "competition": "F10 C Östra",
+          "round": "3",
+          "home": "Eneby BK F2016/17 Vit",
+          "away": "Krokeks IF F 2016 lag 1 Krokeks IF F 2016",
+          "kickoff": "2026-05-17T13:00"
+        },
+        {
+          "matchNo": "14",
+          "competition": "F10 C Östra",
+          "round": "3",
+          "home": "Svärtinge SK Blå",
+          "away": "Västra Husby IF F16",
+          "kickoff": "2026-05-17T14:00"
+        },
+        {
+          "matchNo": "15",
+          "competition": "F10 C Östra",
+          "round": "3",
+          "home": "Lotorps IF Blå, Flickor 9 år - Sammandrag 2025",
+          "away": "IFK Wreta Kloster Flickor F16/17",
+          "kickoff": "2026-05-17T15:00"
+        },
+        {
+          "matchNo": "16",
+          "competition": "F10 C Östra",
+          "round": "4",
+          "home": "Sonstorps IK",
+          "away": "Kimstad GoIF F16/17",
+          "kickoff": "2026-05-23T10:00"
+        },
+        {
+          "matchNo": "17",
+          "competition": "F10 C Östra",
+          "round": "4",
+          "home": "Bråvalla IK Kustbollen F16",
+          "away": "Svärtinge SK Blå",
+          "kickoff": "2026-05-23T10:00"
+        },
+        {
+          "matchNo": "18",
+          "competition": "F10 C Östra",
+          "round": "4",
+          "home": "IFK Wreta Kloster Flickor F16/17",
+          "away": "Eneby BK F2016/17 Vit",
+          "kickoff": "2026-05-23T13:00"
+        },
+        {
+          "matchNo": "19",
+          "competition": "F10 C Östra",
+          "round": "4",
+          "home": "Krokeks IF F 2016 lag 1 Krokeks IF F 2016",
+          "away": "Söderköpings IK F2016-17",
+          "kickoff": "2026-05-24T10:00"
+        },
+        {
+          "matchNo": "20",
+          "competition": "F10 C Östra",
+          "round": "4",
+          "home": "Västra Husby IF F16",
+          "away": "Lotorps IF Blå, Flickor 9 år - Sammandrag 2025",
+          "kickoff": "2026-05-24T17:30"
+        },
+        {
+          "matchNo": "21",
+          "competition": "F10 C Östra",
+          "round": "5",
+          "home": "Kimstad GoIF F16/17",
+          "away": "Västra Husby IF F16",
+          "kickoff": "2026-05-30T10:00"
+        },
+        {
+          "matchNo": "22",
+          "competition": "F10 C Östra",
+          "round": "5",
+          "home": "Lotorps IF Blå, Flickor 9 år - Sammandrag 2025",
+          "away": "Svärtinge SK Blå",
+          "kickoff": "2026-05-30T12:00"
+        },
+        {
+          "matchNo": "23",
+          "competition": "F10 C Östra",
+          "round": "5",
+          "home": "Eneby BK F2016/17 Vit",
+          "away": "Bråvalla IK Kustbollen F16",
+          "kickoff": "2026-05-31T11:15"
+        },
+        {
+          "matchNo": "24",
+          "competition": "F10 C Östra",
+          "round": "5",
+          "home": "Söderköpings IK F2016-17",
+          "away": "IFK Wreta Kloster Flickor F16/17",
+          "kickoff": "2026-05-31T15:00"
+        },
+        {
+          "matchNo": "25",
+          "competition": "F10 C Östra",
+          "round": "5",
+          "home": "Sonstorps IK",
+          "away": "Krokeks IF F 2016 lag 1 Krokeks IF F 2016",
+          "kickoff": "2026-05-31T16:00"
+        },
+        {
+          "matchNo": "26",
+          "competition": "F10 C Östra",
+          "round": "6",
+          "home": "Bråvalla IK Kustbollen F16",
+          "away": "Söderköpings IK F2016-17",
+          "kickoff": "2026-06-06T10:00"
+        },
+        {
+          "matchNo": "27",
+          "competition": "F10 C Östra",
+          "round": "6",
+          "home": "IFK Wreta Kloster Flickor F16/17",
+          "away": "Sonstorps IK",
+          "kickoff": "2026-06-06T11:30"
+        },
+        {
+          "matchNo": "28",
+          "competition": "F10 C Östra",
+          "round": "6",
+          "home": "Svärtinge SK Blå",
+          "away": "Kimstad GoIF F16/17",
+          "kickoff": "2026-06-07T10:00"
+        },
+        {
+          "matchNo": "29",
+          "competition": "F10 C Östra",
+          "round": "6",
+          "home": "Krokeks IF F 2016 lag 1 Krokeks IF F 2016",
+          "away": "Lotorps IF Blå, Flickor 9 år - Sammandrag 2025",
+          "kickoff": "2026-06-07T10:00"
+        },
+        {
+          "matchNo": "30",
+          "competition": "F10 C Östra",
+          "round": "6",
+          "home": "Västra Husby IF F16",
+          "away": "Eneby BK F2016/17 Vit",
+          "kickoff": "2026-06-07T16:00"
+        },
+        {
+          "matchNo": "31",
+          "competition": "F10 C Östra",
+          "round": "7",
+          "home": "Eneby BK F2016/17 Vit",
+          "away": "Lotorps IF Blå, Flickor 9 år - Sammandrag 2025",
+          "kickoff": "2026-06-10T18:30"
+        },
+        {
+          "matchNo": "32",
+          "competition": "F10 C Östra",
+          "round": "7",
+          "home": "Svärtinge SK Blå",
+          "away": "Söderköpings IK F2016-17",
+          "kickoff": "2026-06-13T10:00"
+        },
+        {
+          "matchNo": "33",
+          "competition": "F10 C Östra",
+          "round": "7",
+          "home": "Kimstad GoIF F16/17",
+          "away": "IFK Wreta Kloster Flickor F16/17",
+          "kickoff": "2026-06-13T11:15"
+        },
+        {
+          "matchNo": "34",
+          "competition": "F10 C Östra",
+          "round": "7",
+          "home": "Sonstorps IK",
+          "away": "Västra Husby IF F16",
+          "kickoff": "2026-06-14T11:00"
+        },
+        {
+          "matchNo": "35",
+          "competition": "F10 C Östra",
+          "round": "7",
+          "home": "Krokeks IF F 2016 lag 1 Krokeks IF F 2016",
+          "away": "Bråvalla IK Kustbollen F16",
+          "kickoff": "2026-09-26T11:00"
+        },
+        {
+          "matchNo": "36",
+          "competition": "F10 C Östra",
+          "round": "8",
+          "home": "IFK Wreta Kloster Flickor F16/17",
+          "away": "Krokeks IF F 2016 lag 1 Krokeks IF F 2016",
+          "kickoff": "2026-08-08T10:00"
+        },
+        {
+          "matchNo": "37",
+          "competition": "F10 C Östra",
+          "round": "8",
+          "home": "Bråvalla IK Kustbollen F16",
+          "away": "Sonstorps IK",
+          "kickoff": "2026-08-09T11:00"
+        },
+        {
+          "matchNo": "38",
+          "competition": "F10 C Östra",
+          "round": "8",
+          "home": "Lotorps IF Blå, Flickor 9 år - Sammandrag 2025",
+          "away": "Kimstad GoIF F16/17",
+          "kickoff": "2026-08-12T18:15"
+        },
+        {
+          "matchNo": "39",
+          "competition": "F10 C Östra",
+          "round": "8",
+          "home": "Västra Husby IF F16",
+          "away": "Söderköpings IK F2016-17",
+          "kickoff": "2026-08-18T18:00"
+        },
+        {
+          "matchNo": "40",
+          "competition": "F10 C Östra",
+          "round": "8",
+          "home": "Svärtinge SK Blå",
+          "away": "Eneby BK F2016/17 Vit",
+          "kickoff": "2026-08-24T17:30"
+        },
+        {
+          "matchNo": "41",
+          "competition": "F10 C Östra",
+          "round": "9",
+          "home": "IFK Wreta Kloster Flickor F16/17",
+          "away": "Bråvalla IK Kustbollen F16",
+          "kickoff": "2026-08-15T10:00"
+        },
+        {
+          "matchNo": "42",
+          "competition": "F10 C Östra",
+          "round": "9",
+          "home": "Söderköpings IK F2016-17",
+          "away": "Lotorps IF Blå, Flickor 9 år - Sammandrag 2025",
+          "kickoff": "2026-08-15T11:00"
+        },
+        {
+          "matchNo": "43",
+          "competition": "F10 C Östra",
+          "round": "9",
+          "home": "Eneby BK F2016/17 Vit",
+          "away": "Kimstad GoIF F16/17",
+          "kickoff": "2026-08-15T11:15"
+        },
+        {
+          "matchNo": "44",
+          "competition": "F10 C Östra",
+          "round": "9",
+          "home": "Krokeks IF F 2016 lag 1 Krokeks IF F 2016",
+          "away": "Västra Husby IF F16",
+          "kickoff": "2026-08-16T10:00"
+        },
+        {
+          "matchNo": "45",
+          "competition": "F10 C Östra",
+          "round": "9",
+          "home": "Sonstorps IK",
+          "away": "Svärtinge SK Blå",
+          "kickoff": "2026-08-16T11:00"
+        },
+        {
+          "matchNo": "46",
+          "competition": "F10 C Östra",
+          "round": "10",
+          "home": "Kimstad GoIF F16/17",
+          "away": "Krokeks IF F 2016 lag 1 Krokeks IF F 2016",
+          "kickoff": "2026-08-23T11:00"
+        },
+        {
+          "matchNo": "47",
+          "competition": "F10 C Östra",
+          "round": "10",
+          "home": "Svärtinge SK Blå",
+          "away": "IFK Wreta Kloster Flickor F16/17",
+          "kickoff": "2026-08-23T11:30"
+        },
+        {
+          "matchNo": "48",
+          "competition": "F10 C Östra",
+          "round": "10",
+          "home": "Eneby BK F2016/17 Vit",
+          "away": "Söderköpings IK F2016-17",
+          "kickoff": "2026-08-23T13:00"
+        },
+        {
+          "matchNo": "49",
+          "competition": "F10 C Östra",
+          "round": "10",
+          "home": "Lotorps IF Blå, Flickor 9 år - Sammandrag 2025",
+          "away": "Sonstorps IK",
+          "kickoff": "2026-08-23T15:00"
+        },
+        {
+          "matchNo": "50",
+          "competition": "F10 C Östra",
+          "round": "10",
+          "home": "Västra Husby IF F16",
+          "away": "Bråvalla IK Kustbollen F16",
+          "kickoff": "2026-08-23T18:00"
+        },
+        {
+          "matchNo": "51",
+          "competition": "F10 C Östra",
+          "round": "11",
+          "home": "IFK Wreta Kloster Flickor F16/17",
+          "away": "Västra Husby IF F16",
+          "kickoff": "2026-08-29T10:00"
+        },
+        {
+          "matchNo": "52",
+          "competition": "F10 C Östra",
+          "round": "11",
+          "home": "Bråvalla IK Kustbollen F16",
+          "away": "Lotorps IF Blå, Flickor 9 år - Sammandrag 2025",
+          "kickoff": "2026-08-29T10:00"
+        },
+        {
+          "matchNo": "53",
+          "competition": "F10 C Östra",
+          "round": "11",
+          "home": "Krokeks IF F 2016 lag 1 Krokeks IF F 2016",
+          "away": "Svärtinge SK Blå",
+          "kickoff": "2026-08-30T10:00"
+        },
+        {
+          "matchNo": "54",
+          "competition": "F10 C Östra",
+          "round": "11",
+          "home": "Sonstorps IK",
+          "away": "Eneby BK F2016/17 Vit",
+          "kickoff": "2026-08-30T14:00"
+        },
+        {
+          "matchNo": "55",
+          "competition": "F10 C Östra",
+          "round": "11",
+          "home": "Söderköpings IK F2016-17",
+          "away": "Kimstad GoIF F16/17",
+          "kickoff": "2026-08-30T15:00"
+        },
+        {
+          "matchNo": "56",
+          "competition": "F10 C Östra",
+          "round": "12",
+          "home": "Söderköpings IK F2016-17",
+          "away": "Krokeks IF F 2016 lag 1 Krokeks IF F 2016",
+          "kickoff": "2026-09-05T11:00"
+        },
+        {
+          "matchNo": "57",
+          "competition": "F10 C Östra",
+          "round": "12",
+          "home": "Eneby BK F2016/17 Vit",
+          "away": "IFK Wreta Kloster Flickor F16/17",
+          "kickoff": "2026-09-05T13:00"
+        },
+        {
+          "matchNo": "58",
+          "competition": "F10 C Östra",
+          "round": "12",
+          "home": "Kimstad GoIF F16/17",
+          "away": "Sonstorps IK",
+          "kickoff": "2026-09-06T12:00"
+        },
+        {
+          "matchNo": "59",
+          "competition": "F10 C Östra",
+          "round": "12",
+          "home": "Lotorps IF Blå, Flickor 9 år - Sammandrag 2025",
+          "away": "Västra Husby IF F16",
+          "kickoff": "2026-09-06T15:00"
+        },
+        {
+          "matchNo": "60",
+          "competition": "F10 C Östra",
+          "round": "12",
+          "home": "Svärtinge SK Blå",
+          "away": "Bråvalla IK Kustbollen F16",
+          "kickoff": "2026-09-06T16:00"
+        },
+        {
+          "matchNo": "61",
+          "competition": "F10 C Östra",
+          "round": "13",
+          "home": "IFK Wreta Kloster Flickor F16/17",
+          "away": "Lotorps IF Blå, Flickor 9 år - Sammandrag 2025",
+          "kickoff": "2026-09-12T10:00"
+        },
+        {
+          "matchNo": "62",
+          "competition": "F10 C Östra",
+          "round": "13",
+          "home": "Bråvalla IK Kustbollen F16",
+          "away": "Kimstad GoIF F16/17",
+          "kickoff": "2026-09-12T10:00"
+        },
+        {
+          "matchNo": "63",
+          "competition": "F10 C Östra",
+          "round": "13",
+          "home": "Krokeks IF F 2016 lag 1 Krokeks IF F 2016",
+          "away": "Eneby BK F2016/17 Vit",
+          "kickoff": "2026-09-13T10:00"
+        },
+        {
+          "matchNo": "64",
+          "competition": "F10 C Östra",
+          "round": "13",
+          "home": "Sonstorps IK",
+          "away": "Söderköpings IK F2016-17",
+          "kickoff": "2026-09-13T11:00"
+        },
+        {
+          "matchNo": "65",
+          "competition": "F10 C Östra",
+          "round": "13",
+          "home": "Västra Husby IF F16",
+          "away": "Svärtinge SK Blå",
+          "kickoff": "2026-09-13T16:00"
+        },
+        {
+          "matchNo": "66",
+          "competition": "F10 C Östra",
+          "round": "14",
+          "home": "Kimstad GoIF F16/17",
+          "away": "Svärtinge SK Blå",
+          "kickoff": "2026-09-19T10:00"
+        },
+        {
+          "matchNo": "67",
+          "competition": "F10 C Östra",
+          "round": "14",
+          "home": "Eneby BK F2016/17 Vit",
+          "away": "Västra Husby IF F16",
+          "kickoff": "2026-09-19T13:00"
+        },
+        {
+          "matchNo": "68",
+          "competition": "F10 C Östra",
+          "round": "14",
+          "home": "Söderköpings IK F2016-17",
+          "away": "Bråvalla IK Kustbollen F16",
+          "kickoff": "2026-09-20T11:00"
+        },
+        {
+          "matchNo": "69",
+          "competition": "F10 C Östra",
+          "round": "14",
+          "home": "Sonstorps IK",
+          "away": "IFK Wreta Kloster Flickor F16/17",
+          "kickoff": "2026-09-20T11:00"
+        },
+        {
+          "matchNo": "70",
+          "competition": "F10 C Östra",
+          "round": "14",
+          "home": "Lotorps IF Blå, Flickor 9 år - Sammandrag 2025",
+          "away": "Krokeks IF F 2016 lag 1 Krokeks IF F 2016",
+          "kickoff": "2026-09-20T15:00"
+        }
+      ],
+      "verdicts": [
+        {
+          "home": 1,
+          "away": 2
+        },
+        {
+          "home": 2,
+          "away": 3
+        },
+        {
+          "home": 3,
+          "away": 3
+        },
+        {
+          "home": 3,
+          "away": 3
+        },
+        {
+          "home": 1,
+          "away": 3
+        },
+        {
+          "home": 2,
+          "away": 3
+        },
+        {
+          "home": 3,
+          "away": 2
+        },
+        {
+          "home": 1,
+          "away": 3
+        },
+        {
+          "home": 3,
+          "away": 2
+        },
+        {
+          "home": 1,
+          "away": 1
+        },
+        {
+          "home": 3,
+          "away": 3
+        },
+        {
+          "home": 1,
+          "away": 2
+        },
+        {
+          "home": 2,
+          "away": 1
+        },
+        {
+          "home": 3,
+          "away": 2
+        },
+        {
+          "home": 2,
+          "away": 2
+        },
+        {
+          "home": 1,
+          "away": 2
+        },
+        {
+          "home": 2,
+          "away": 2
+        },
+        {
+          "home": 3,
+          "away": 2
+        },
+        {
+          "home": 2,
+          "away": 3
+        },
+        {
+          "home": 2,
+          "away": 1
+        },
+        {
+          "home": 1,
+          "away": 1
+        },
+        {
+          "home": 1,
+          "away": 2
+        },
+        {
+          "home": 3,
+          "away": 3
+        },
+        {
+          "home": 2,
+          "away": 3
+        },
+        {
+          "home": 3,
+          "away": 3
+        },
+        {
+          "home": 3,
+          "away": 1
+        },
+        {
+          "home": 2,
+          "away": 3
+        },
+        {
+          "home": 2,
+          "away": 1
+        },
+        {
+          "home": 3,
+          "away": 3
+        },
+        {
+          "home": 3,
+          "away": 1
+        },
+        {
+          "home": 3,
+          "away": 2
+        },
+        {
+          "home": 2,
+          "away": 2
+        },
+        {
+          "home": 2,
+          "away": 2
+        },
+        {
+          "home": 2,
+          "away": 1
+        },
+        {
+          "home": 2,
+          "away": 2
+        },
+        {
+          "home": 1,
+          "away": 3
+        },
+        {
+          "home": 2,
+          "away": 1
+        },
+        {
+          "home": 2,
+          "away": 1
+        },
+        {
+          "home": 1,
+          "away": 3
+        },
+        {
+          "home": 1,
+          "away": 2
+        },
+        {
+          "home": 2,
+          "away": 2
+        },
+        {
+          "home": 2,
+          "away": 1
+        },
+        {
+          "home": 1,
+          "away": 1
+        },
+        {
+          "home": 1,
+          "away": 2
+        },
+        {
+          "home": 1,
+          "away": 3
+        },
+        {
+          "home": 2,
+          "away": 3
+        },
+        {
+          "home": 2,
+          "away": 3
+        },
+        {
+          "home": 1,
+          "away": 1
+        },
+        {
+          "home": 2,
+          "away": 3
+        },
+        {
+          "home": 2,
+          "away": 2
+        },
+        {
+          "home": 2,
+          "away": 2
+        },
+        {
+          "home": 1,
+          "away": 1
+        },
+        {
+          "home": 1,
+          "away": 2
+        },
+        {
+          "home": 3,
+          "away": 1
+        },
+        {
+          "home": 3,
+          "away": 1
+        },
+        {
+          "home": 2,
+          "away": 1
+        },
+        {
+          "home": 1,
+          "away": 3
+        },
+        {
+          "home": 3,
+          "away": 1
+        },
+        {
+          "home": 2,
+          "away": 2
+        },
+        {
+          "home": 3,
+          "away": 1
+        },
+        {
+          "home": 2,
+          "away": 2
+        },
+        {
+          "home": 2,
+          "away": 1
+        },
+        {
+          "home": 2,
+          "away": 1
+        },
+        {
+          "home": 1,
+          "away": 3
+        },
+        {
+          "home": 3,
+          "away": 3
+        },
+        {
+          "home": 2,
+          "away": 1
+        },
+        {
+          "home": 2,
+          "away": 1
+        },
+        {
+          "home": 3,
+          "away": 3
+        },
+        {
+          "home": 1,
+          "away": 3
+        },
+        {
+          "home": 3,
+          "away": 2
+        }
+      ]
+    },
+    {
+      "name": "F10 C Mellersta/Östra",
+      "matches": [
+        {
+          "matchNo": "1",
+          "competition": "F10 C Mellersta/Östra",
+          "round": "1",
+          "home": "Eneby BK F2016/17 Grön",
+          "away": "Svärtinge SK Vit",
+          "kickoff": "2026-05-02T13:00"
+        },
+        {
+          "matchNo": "2",
+          "competition": "F10 C Mellersta/Östra",
+          "round": "1",
+          "home": "Linghems SK F10",
+          "away": "Hjulsbro IK F-2016 Röd",
+          "kickoff": "2026-05-03T10:00"
+        },
+        {
+          "matchNo": "3",
+          "competition": "F10 C Mellersta/Östra",
+          "round": "1",
+          "home": "Åtvidabergs FF F2016",
+          "away": "BK Kenty F2016 Svart",
+          "kickoff": "2026-05-03T14:00"
+        },
+        {
+          "matchNo": "4",
+          "competition": "F10 C Mellersta/Östra",
+          "round": "1",
+          "home": "Sturefors IF",
+          "away": "Ekängens IF F16",
+          "kickoff": "2026-05-03T17:15"
+        },
+        {
+          "matchNo": "5",
+          "competition": "F10 C Mellersta/Östra",
+          "round": "2",
+          "home": "Svärtinge SK Vit",
+          "away": "Sturefors IF",
+          "kickoff": "2026-05-10T10:00"
+        },
+        {
+          "matchNo": "6",
+          "competition": "F10 C Mellersta/Östra",
+          "round": "2",
+          "home": "BK Kenty F2016 Svart",
+          "away": "Eneby BK F2016/17 Grön",
+          "kickoff": "2026-05-10T14:00"
+        },
+        {
+          "matchNo": "7",
+          "competition": "F10 C Mellersta/Östra",
+          "round": "2",
+          "home": "Hjulsbro IK F-2016 Röd",
+          "away": "Åtvidabergs FF F2016",
+          "kickoff": "2026-05-10T14:30"
+        },
+        {
+          "matchNo": "8",
+          "competition": "F10 C Mellersta/Östra",
+          "round": "2",
+          "home": "Ekängens IF F16",
+          "away": "Linghems SK F10",
+          "kickoff": "2026-05-10T15:00"
+        },
+        {
+          "matchNo": "9",
+          "competition": "F10 C Mellersta/Östra",
+          "round": "3",
+          "home": "Linghems SK F10",
+          "away": "Svärtinge SK Vit",
+          "kickoff": "2026-05-17T10:00"
+        },
+        {
+          "matchNo": "10",
+          "competition": "F10 C Mellersta/Östra",
+          "round": "3",
+          "home": "Åtvidabergs FF F2016",
+          "away": "Ekängens IF F16",
+          "kickoff": "2026-05-17T14:00"
+        },
+        {
+          "matchNo": "11",
+          "competition": "F10 C Mellersta/Östra",
+          "round": "3",
+          "home": "Hjulsbro IK F-2016 Röd",
+          "away": "BK Kenty F2016 Svart",
+          "kickoff": "2026-05-17T14:30"
+        },
+        {
+          "matchNo": "12",
+          "competition": "F10 C Mellersta/Östra",
+          "round": "3",
+          "home": "Sturefors IF",
+          "away": "Eneby BK F2016/17 Grön",
+          "kickoff": "2026-05-17T17:15"
+        },
+        {
+          "matchNo": "13",
+          "competition": "F10 C Mellersta/Östra",
+          "round": "4",
+          "home": "Eneby BK F2016/17 Grön",
+          "away": "Linghems SK F10",
+          "kickoff": "2026-05-23T14:45"
+        },
+        {
+          "matchNo": "14",
+          "competition": "F10 C Mellersta/Östra",
+          "round": "4",
+          "home": "Ekängens IF F16",
+          "away": "Hjulsbro IK F-2016 Röd",
+          "kickoff": "2026-05-24T11:30"
+        },
+        {
+          "matchNo": "15",
+          "competition": "F10 C Mellersta/Östra",
+          "round": "4",
+          "home": "Svärtinge SK Vit",
+          "away": "Åtvidabergs FF F2016",
+          "kickoff": "2026-05-24T12:00"
+        },
+        {
+          "matchNo": "16",
+          "competition": "F10 C Mellersta/Östra",
+          "round": "4",
+          "home": "BK Kenty F2016 Svart",
+          "away": "Sturefors IF",
+          "kickoff": "2026-05-24T16:00"
+        },
+        {
+          "matchNo": "17",
+          "competition": "F10 C Mellersta/Östra",
+          "round": "5",
+          "home": "Ekängens IF F16",
+          "away": "BK Kenty F2016 Svart",
+          "kickoff": "2026-05-30T15:00"
+        },
+        {
+          "matchNo": "18",
+          "competition": "F10 C Mellersta/Östra",
+          "round": "5",
+          "home": "Linghems SK F10",
+          "away": "Sturefors IF",
+          "kickoff": "2026-05-31T10:00"
+        },
+        {
+          "matchNo": "19",
+          "competition": "F10 C Mellersta/Östra",
+          "round": "5",
+          "home": "Hjulsbro IK F-2016 Röd",
+          "away": "Svärtinge SK Vit",
+          "kickoff": "2026-05-31T10:30"
+        },
+        {
+          "matchNo": "20",
+          "competition": "F10 C Mellersta/Östra",
+          "round": "5",
+          "home": "Åtvidabergs FF F2016",
+          "away": "Eneby BK F2016/17 Grön",
+          "kickoff": "2026-05-31T16:00"
+        },
+        {
+          "matchNo": "21",
+          "competition": "F10 C Mellersta/Östra",
+          "round": "6",
+          "home": "Eneby BK F2016/17 Grön",
+          "away": "Hjulsbro IK F-2016 Röd",
+          "kickoff": "2026-06-04T18:30"
+        },
+        {
+          "matchNo": "22",
+          "competition": "F10 C Mellersta/Östra",
+          "round": "6",
+          "home": "Linghems SK F10",
+          "away": "BK Kenty F2016 Svart",
+          "kickoff": "2026-06-07T10:00"
+        },
+        {
+          "matchNo": "23",
+          "competition": "F10 C Mellersta/Östra",
+          "round": "6",
+          "home": "Svärtinge SK Vit",
+          "away": "Ekängens IF F16",
+          "kickoff": "2026-06-07T11:30"
+        },
+        {
+          "matchNo": "24",
+          "competition": "F10 C Mellersta/Östra",
+          "round": "6",
+          "home": "Sturefors IF",
+          "away": "Åtvidabergs FF F2016",
+          "kickoff": "2026-06-07T13:00"
+        },
+        {
+          "matchNo": "25",
+          "competition": "F10 C Mellersta/Östra",
+          "round": "7",
+          "home": "Åtvidabergs FF F2016",
+          "away": "Linghems SK F10",
+          "kickoff": "2026-06-09T18:00"
+        },
+        {
+          "matchNo": "26",
+          "competition": "F10 C Mellersta/Östra",
+          "round": "7",
+          "home": "Ekängens IF F16",
+          "away": "Eneby BK F2016/17 Grön",
+          "kickoff": "2026-06-13T14:00"
+        },
+        {
+          "matchNo": "27",
+          "competition": "F10 C Mellersta/Östra",
+          "round": "7",
+          "home": "Hjulsbro IK F-2016 Röd",
+          "away": "Sturefors IF",
+          "kickoff": "2026-06-13T14:30"
+        },
+        {
+          "matchNo": "28",
+          "competition": "F10 C Mellersta/Östra",
+          "round": "7",
+          "home": "BK Kenty F2016 Svart",
+          "away": "Svärtinge SK Vit",
+          "kickoff": "2026-06-14T14:00"
+        },
+        {
+          "matchNo": "29",
+          "competition": "F10 C Mellersta/Östra",
+          "round": "8",
+          "home": "Sturefors IF",
+          "away": "Svärtinge SK Vit",
+          "kickoff": "2026-08-09T09:30"
+        },
+        {
+          "matchNo": "30",
+          "competition": "F10 C Mellersta/Östra",
+          "round": "8",
+          "home": "Linghems SK F10",
+          "away": "Ekängens IF F16",
+          "kickoff": "2026-08-09T10:00"
+        },
+        {
+          "matchNo": "31",
+          "competition": "F10 C Mellersta/Östra",
+          "round": "8",
+          "home": "Åtvidabergs FF F2016",
+          "away": "Hjulsbro IK F-2016 Röd",
+          "kickoff": "2026-08-09T16:00"
+        },
+        {
+          "matchNo": "32",
+          "competition": "F10 C Mellersta/Östra",
+          "round": "8",
+          "home": "Eneby BK F2016/17 Grön",
+          "away": "BK Kenty F2016 Svart",
+          "kickoff": "2026-09-27T11:00"
+        },
+        {
+          "matchNo": "33",
+          "competition": "F10 C Mellersta/Östra",
+          "round": "9",
+          "home": "Hjulsbro IK F-2016 Röd",
+          "away": "Linghems SK F10",
+          "kickoff": "2026-08-15T10:30"
+        },
+        {
+          "matchNo": "34",
+          "competition": "F10 C Mellersta/Östra",
+          "round": "9",
+          "home": "Svärtinge SK Vit",
+          "away": "Eneby BK F2016/17 Grön",
+          "kickoff": "2026-08-16T10:00"
+        },
+        {
+          "matchNo": "35",
+          "competition": "F10 C Mellersta/Östra",
+          "round": "9",
+          "home": "Ekängens IF F16",
+          "away": "Sturefors IF",
+          "kickoff": "2026-08-16T16:00"
+        },
+        {
+          "matchNo": "36",
+          "competition": "F10 C Mellersta/Östra",
+          "round": "9",
+          "home": "BK Kenty F2016 Svart",
+          "away": "Åtvidabergs FF F2016",
+          "kickoff": "2026-08-16T16:00"
+        },
+        {
+          "matchNo": "37",
+          "competition": "F10 C Mellersta/Östra",
+          "round": "10",
+          "home": "Eneby BK F2016/17 Grön",
+          "away": "Sturefors IF",
+          "kickoff": "2026-08-22T13:00"
+        },
+        {
+          "matchNo": "38",
+          "competition": "F10 C Mellersta/Östra",
+          "round": "10",
+          "home": "Svärtinge SK Vit",
+          "away": "Linghems SK F10",
+          "kickoff": "2026-08-23T10:00"
+        },
+        {
+          "matchNo": "39",
+          "competition": "F10 C Mellersta/Östra",
+          "round": "10",
+          "home": "Ekängens IF F16",
+          "away": "Åtvidabergs FF F2016",
+          "kickoff": "2026-08-23T11:30"
+        },
+        {
+          "matchNo": "40",
+          "competition": "F10 C Mellersta/Östra",
+          "round": "10",
+          "home": "BK Kenty F2016 Svart",
+          "away": "Hjulsbro IK F-2016 Röd",
+          "kickoff": "2026-08-23T16:00"
+        },
+        {
+          "matchNo": "41",
+          "competition": "F10 C Mellersta/Östra",
+          "round": "11",
+          "home": "Sturefors IF",
+          "away": "BK Kenty F2016 Svart",
+          "kickoff": "2026-08-29T09:30"
+        },
+        {
+          "matchNo": "42",
+          "competition": "F10 C Mellersta/Östra",
+          "round": "11",
+          "home": "Hjulsbro IK F-2016 Röd",
+          "away": "Ekängens IF F16",
+          "kickoff": "2026-08-29T12:30"
+        },
+        {
+          "matchNo": "43",
+          "competition": "F10 C Mellersta/Östra",
+          "round": "11",
+          "home": "Linghems SK F10",
+          "away": "Eneby BK F2016/17 Grön",
+          "kickoff": "2026-08-30T10:00"
+        },
+        {
+          "matchNo": "44",
+          "competition": "F10 C Mellersta/Östra",
+          "round": "11",
+          "home": "Åtvidabergs FF F2016",
+          "away": "Svärtinge SK Vit",
+          "kickoff": "2026-08-30T14:00"
+        },
+        {
+          "matchNo": "45",
+          "competition": "F10 C Mellersta/Östra",
+          "round": "12",
+          "home": "Sturefors IF",
+          "away": "Linghems SK F10",
+          "kickoff": "2026-09-06T10:00"
+        },
+        {
+          "matchNo": "46",
+          "competition": "F10 C Mellersta/Östra",
+          "round": "12",
+          "home": "Svärtinge SK Vit",
+          "away": "Hjulsbro IK F-2016 Röd",
+          "kickoff": "2026-09-06T14:30"
+        },
+        {
+          "matchNo": "47",
+          "competition": "F10 C Mellersta/Östra",
+          "round": "12",
+          "home": "Eneby BK F2016/17 Grön",
+          "away": "Åtvidabergs FF F2016",
+          "kickoff": "2026-09-06T14:45"
+        },
+        {
+          "matchNo": "48",
+          "competition": "F10 C Mellersta/Östra",
+          "round": "12",
+          "home": "BK Kenty F2016 Svart",
+          "away": "Ekängens IF F16",
+          "kickoff": "2026-09-06T16:00"
+        },
+        {
+          "matchNo": "49",
+          "competition": "F10 C Mellersta/Östra",
+          "round": "13",
+          "home": "Ekängens IF F16",
+          "away": "Svärtinge SK Vit",
+          "kickoff": "2026-09-12T14:00"
+        },
+        {
+          "matchNo": "50",
+          "competition": "F10 C Mellersta/Östra",
+          "round": "13",
+          "home": "Åtvidabergs FF F2016",
+          "away": "Sturefors IF",
+          "kickoff": "2026-09-13T14:00"
+        },
+        {
+          "matchNo": "51",
+          "competition": "F10 C Mellersta/Östra",
+          "round": "13",
+          "home": "Hjulsbro IK F-2016 Röd",
+          "away": "Eneby BK F2016/17 Grön",
+          "kickoff": "2026-09-13T14:30"
+        },
+        {
+          "matchNo": "52",
+          "competition": "F10 C Mellersta/Östra",
+          "round": "13",
+          "home": "BK Kenty F2016 Svart",
+          "away": "Linghems SK F10",
+          "kickoff": "2026-09-13T16:00"
+        },
+        {
+          "matchNo": "53",
+          "competition": "F10 C Mellersta/Östra",
+          "round": "14",
+          "home": "Sturefors IF",
+          "away": "Hjulsbro IK F-2016 Röd",
+          "kickoff": "2026-09-20T09:00"
+        },
+        {
+          "matchNo": "54",
+          "competition": "F10 C Mellersta/Östra",
+          "round": "14",
+          "home": "Linghems SK F10",
+          "away": "Åtvidabergs FF F2016",
+          "kickoff": "2026-09-20T10:00"
+        },
+        {
+          "matchNo": "55",
+          "competition": "F10 C Mellersta/Östra",
+          "round": "14",
+          "home": "Svärtinge SK Vit",
+          "away": "BK Kenty F2016 Svart",
+          "kickoff": "2026-09-20T10:00"
+        },
+        {
+          "matchNo": "56",
+          "competition": "F10 C Mellersta/Östra",
+          "round": "14",
+          "home": "Eneby BK F2016/17 Grön",
+          "away": "Ekängens IF F16",
+          "kickoff": "2026-09-20T14:45"
+        }
+      ],
+      "verdicts": [
+        {
+          "home": 2,
+          "away": 1
+        },
+        {
+          "home": 3,
+          "away": 2
+        },
+        {
+          "home": 3,
+          "away": 1
+        },
+        {
+          "home": 1,
+          "away": 3
+        },
+        {
+          "home": 3,
+          "away": 3
+        },
+        {
+          "home": 1,
+          "away": 2
+        },
+        {
+          "home": 2,
+          "away": 2
+        },
+        {
+          "home": 2,
+          "away": 1
+        },
+        {
+          "home": 2,
+          "away": 2
+        },
+        {
+          "home": 1,
+          "away": 1
+        },
+        {
+          "home": 1,
+          "away": 1
+        },
+        {
+          "home": 2,
+          "away": 3
+        },
+        {
+          "home": 2,
+          "away": 2
+        },
+        {
+          "home": 1,
+          "away": 3
+        },
+        {
+          "home": 3,
+          "away": 1
+        },
+        {
+          "home": 1,
+          "away": 2
+        },
+        {
+          "home": 1,
+          "away": 2
+        },
+        {
+          "home": 1,
+          "away": 3
+        },
+        {
+          "home": 2,
+          "away": 3
+        },
+        {
+          "home": 3,
+          "away": 1
+        },
+        {
+          "home": 1,
+          "away": 2
+        },
+        {
+          "home": 1,
+          "away": 3
+        },
+        {
+          "home": 1,
+          "away": 1
+        },
+        {
+          "home": 2,
+          "away": 3
+        },
+        {
+          "home": 2,
+          "away": 1
+        },
+        {
+          "home": 1,
+          "away": 3
+        },
+        {
+          "home": 3,
+          "away": 1
+        },
+        {
+          "home": 3,
+          "away": 3
+        },
+        {
+          "home": 2,
+          "away": 3
+        },
+        {
+          "home": 2,
+          "away": 3
+        },
+        {
+          "home": 3,
+          "away": 1
+        },
+        {
+          "home": 1,
+          "away": 3
+        },
+        {
+          "home": 2,
+          "away": 2
+        },
+        {
+          "home": 3,
+          "away": 1
+        },
+        {
+          "home": 2,
+          "away": 2
+        },
+        {
+          "home": 1,
+          "away": 3
+        },
+        {
+          "home": 3,
+          "away": 2
+        },
+        {
+          "home": 2,
+          "away": 1
+        },
+        {
+          "home": 1,
+          "away": 3
+        },
+        {
+          "home": 3,
+          "away": 3
+        },
+        {
+          "home": 1,
+          "away": 2
+        },
+        {
+          "home": 2,
+          "away": 2
+        },
+        {
+          "home": 1,
+          "away": 3
+        },
+        {
+          "home": 1,
+          "away": 2
+        },
+        {
+          "home": 1,
+          "away": 3
+        },
+        {
+          "home": 1,
+          "away": 2
+        },
+        {
+          "home": 3,
+          "away": 2
+        },
+        {
+          "home": 1,
+          "away": 3
+        },
+        {
+          "home": 2,
+          "away": 2
+        },
+        {
+          "home": 1,
+          "away": 3
+        },
+        {
+          "home": 3,
+          "away": 3
+        },
+        {
+          "home": 1,
+          "away": 1
+        },
+        {
+          "home": 1,
+          "away": 3
+        },
+        {
+          "home": 3,
+          "away": 3
+        },
+        {
+          "home": 2,
+          "away": 1
+        },
+        {
+          "home": 2,
+          "away": 1
+        }
+      ]
+    },
+    {
+      "name": "F10 C Västra",
+      "matches": [
+        {
+          "matchNo": "1",
+          "competition": "F10 C Västra",
+          "round": "1",
+          "home": "Boxholms IF Boxholms IF F16",
+          "away": "Skeninge IK F16/17",
+          "kickoff": "2026-05-02T13:00"
+        },
+        {
+          "matchNo": "2",
+          "competition": "F10 C Västra",
+          "round": "1",
+          "home": "Mjölby AI FF F16",
+          "away": "BK Ljungsbro F16/17 Vit",
+          "kickoff": "2026-05-02T15:00"
+        },
+        {
+          "matchNo": "3",
+          "competition": "F10 C Västra",
+          "round": "1",
+          "home": "Vadstena GIF 3",
+          "away": "Borensbergs IF FK F2016",
+          "kickoff": "2026-05-03T12:00"
+        },
+        {
+          "matchNo": "4",
+          "competition": "F10 C Västra",
+          "round": "1",
+          "home": "BK Zeros F16 Grön",
+          "away": "Ödeshögs IK F16",
+          "kickoff": "2026-05-03T13:00"
+        },
+        {
+          "matchNo": "5",
+          "competition": "F10 C Västra",
+          "round": "2",
+          "home": "Ödeshögs IK F16",
+          "away": "Boxholms IF Boxholms IF F16",
+          "kickoff": "2026-05-09T11:00"
+        },
+        {
+          "matchNo": "6",
+          "competition": "F10 C Västra",
+          "round": "2",
+          "home": "Mantorps FF Vit",
+          "away": "Mjölby AI FF F16",
+          "kickoff": "2026-05-09T14:00"
+        },
+        {
+          "matchNo": "7",
+          "competition": "F10 C Västra",
+          "round": "2",
+          "home": "BK Ljungsbro F16/17 Vit",
+          "away": "BK Zeros F16 Grön",
+          "kickoff": "2026-05-10T10:00"
+        },
+        {
+          "matchNo": "8",
+          "competition": "F10 C Västra",
+          "round": "2",
+          "home": "Skeninge IK F16/17",
+          "away": "Vadstena GIF 3",
+          "kickoff": "2026-05-10T11:00"
+        },
+        {
+          "matchNo": "9",
+          "competition": "F10 C Västra",
+          "round": "3",
+          "home": "Boxholms IF Boxholms IF F16",
+          "away": "BK Zeros F16 Grön",
+          "kickoff": "2026-05-16T13:00"
+        },
+        {
+          "matchNo": "10",
+          "competition": "F10 C Västra",
+          "round": "3",
+          "home": "Vadstena GIF 3",
+          "away": "BK Ljungsbro F16/17 Vit",
+          "kickoff": "2026-05-16T14:00"
+        },
+        {
+          "matchNo": "11",
+          "competition": "F10 C Västra",
+          "round": "3",
+          "home": "Mjölby AI FF F16",
+          "away": "Ödeshögs IK F16",
+          "kickoff": "2026-05-17T11:00"
+        },
+        {
+          "matchNo": "12",
+          "competition": "F10 C Västra",
+          "round": "3",
+          "home": "Borensbergs IF FK F2016",
+          "away": "Mantorps FF Vit",
+          "kickoff": "2026-05-17T15:00"
+        },
+        {
+          "matchNo": "13",
+          "competition": "F10 C Västra",
+          "round": "4",
+          "home": "BK Zeros F16 Grön",
+          "away": "Mjölby AI FF F16",
+          "kickoff": "2026-05-24T10:00"
+        },
+        {
+          "matchNo": "14",
+          "competition": "F10 C Västra",
+          "round": "4",
+          "home": "BK Ljungsbro F16/17 Vit",
+          "away": "Boxholms IF Boxholms IF F16",
+          "kickoff": "2026-05-24T10:00"
+        },
+        {
+          "matchNo": "15",
+          "competition": "F10 C Västra",
+          "round": "4",
+          "home": "Mantorps FF Vit",
+          "away": "Vadstena GIF 3",
+          "kickoff": "2026-05-24T11:00"
+        },
+        {
+          "matchNo": "16",
+          "competition": "F10 C Västra",
+          "round": "4",
+          "home": "Skeninge IK F16/17",
+          "away": "Borensbergs IF FK F2016",
+          "kickoff": "2026-05-24T11:00"
+        },
+        {
+          "matchNo": "17",
+          "competition": "F10 C Västra",
+          "round": "5",
+          "home": "Mantorps FF Vit",
+          "away": "Skeninge IK F16/17",
+          "kickoff": "2026-05-30T10:00"
+        },
+        {
+          "matchNo": "18",
+          "competition": "F10 C Västra",
+          "round": "5",
+          "home": "Borensbergs IF FK F2016",
+          "away": "Ödeshögs IK F16",
+          "kickoff": "2026-05-31T10:00"
+        },
+        {
+          "matchNo": "19",
+          "competition": "F10 C Västra",
+          "round": "5",
+          "home": "Vadstena GIF 3",
+          "away": "BK Zeros F16 Grön",
+          "kickoff": "2026-05-31T10:00"
+        },
+        {
+          "matchNo": "20",
+          "competition": "F10 C Västra",
+          "round": "5",
+          "home": "Mjölby AI FF F16",
+          "away": "Boxholms IF Boxholms IF F16",
+          "kickoff": "2026-05-31T11:00"
+        },
+        {
+          "matchNo": "21",
+          "competition": "F10 C Västra",
+          "round": "6",
+          "home": "Boxholms IF Boxholms IF F16",
+          "away": "Vadstena GIF 3",
+          "kickoff": "2026-06-06T11:00"
+        },
+        {
+          "matchNo": "22",
+          "competition": "F10 C Västra",
+          "round": "6",
+          "home": "Ödeshögs IK F16",
+          "away": "Mantorps FF Vit",
+          "kickoff": "2026-06-06T11:00"
+        },
+        {
+          "matchNo": "23",
+          "competition": "F10 C Västra",
+          "round": "6",
+          "home": "BK Ljungsbro F16/17 Vit",
+          "away": "Borensbergs IF FK F2016",
+          "kickoff": "2026-06-07T10:00"
+        },
+        {
+          "matchNo": "24",
+          "competition": "F10 C Västra",
+          "round": "6",
+          "home": "Skeninge IK F16/17",
+          "away": "Mjölby AI FF F16",
+          "kickoff": "2026-06-07T16:00"
+        },
+        {
+          "matchNo": "25",
+          "competition": "F10 C Västra",
+          "round": "7",
+          "home": "Borensbergs IF FK F2016",
+          "away": "Boxholms IF Boxholms IF F16",
+          "kickoff": "2026-06-13T10:00"
+        },
+        {
+          "matchNo": "26",
+          "competition": "F10 C Västra",
+          "round": "7",
+          "home": "Vadstena GIF 3",
+          "away": "Ödeshögs IK F16",
+          "kickoff": "2026-06-14T10:00"
+        },
+        {
+          "matchNo": "27",
+          "competition": "F10 C Västra",
+          "round": "7",
+          "home": "Skeninge IK F16/17",
+          "away": "BK Ljungsbro F16/17 Vit",
+          "kickoff": "2026-06-14T11:00"
+        },
+        {
+          "matchNo": "28",
+          "competition": "F10 C Västra",
+          "round": "7",
+          "home": "Mantorps FF Vit",
+          "away": "BK Zeros F16 Grön",
+          "kickoff": "2026-06-14T13:30"
+        },
+        {
+          "matchNo": "29",
+          "competition": "F10 C Västra",
+          "round": "8",
+          "home": "BK Zeros F16 Grön",
+          "away": "Borensbergs IF FK F2016",
+          "kickoff": "2026-08-09T12:00"
+        },
+        {
+          "matchNo": "30",
+          "competition": "F10 C Västra",
+          "round": "8",
+          "home": "Mjölby AI FF F16",
+          "away": "Vadstena GIF 3",
+          "kickoff": "2026-08-09T13:00"
+        },
+        {
+          "matchNo": "31",
+          "competition": "F10 C Västra",
+          "round": "8",
+          "home": "Ödeshögs IK F16",
+          "away": "Skeninge IK F16/17",
+          "kickoff": "2026-08-09T14:00"
+        },
+        {
+          "matchNo": "32",
+          "competition": "F10 C Västra",
+          "round": "8",
+          "home": "BK Ljungsbro F16/17 Vit",
+          "away": "Mantorps FF Vit",
+          "kickoff": "2026-08-24T17:45"
+        },
+        {
+          "matchNo": "33",
+          "competition": "F10 C Västra",
+          "round": "9",
+          "home": "Borensbergs IF FK F2016",
+          "away": "Mjölby AI FF F16",
+          "kickoff": "2026-08-15T10:00"
+        },
+        {
+          "matchNo": "34",
+          "competition": "F10 C Västra",
+          "round": "9",
+          "home": "Mantorps FF Vit",
+          "away": "Boxholms IF Boxholms IF F16",
+          "kickoff": "2026-08-15T10:00"
+        },
+        {
+          "matchNo": "35",
+          "competition": "F10 C Västra",
+          "round": "9",
+          "home": "Ödeshögs IK F16",
+          "away": "BK Ljungsbro F16/17 Vit",
+          "kickoff": "2026-08-16T14:00"
+        },
+        {
+          "matchNo": "36",
+          "competition": "F10 C Västra",
+          "round": "9",
+          "home": "Skeninge IK F16/17",
+          "away": "BK Zeros F16 Grön",
+          "kickoff": "2026-08-16T16:00"
+        },
+        {
+          "matchNo": "37",
+          "competition": "F10 C Västra",
+          "round": "10",
+          "home": "Vadstena GIF 3",
+          "away": "Skeninge IK F16/17",
+          "kickoff": "2026-08-22T12:00"
+        },
+        {
+          "matchNo": "38",
+          "competition": "F10 C Västra",
+          "round": "10",
+          "home": "Boxholms IF Boxholms IF F16",
+          "away": "Ödeshögs IK F16",
+          "kickoff": "2026-08-22T13:00"
+        },
+        {
+          "matchNo": "39",
+          "competition": "F10 C Västra",
+          "round": "10",
+          "home": "Mjölby AI FF F16",
+          "away": "Mantorps FF Vit",
+          "kickoff": "2026-08-22T15:00"
+        },
+        {
+          "matchNo": "40",
+          "competition": "F10 C Västra",
+          "round": "10",
+          "home": "BK Zeros F16 Grön",
+          "away": "BK Ljungsbro F16/17 Vit",
+          "kickoff": "2026-08-23T15:30"
+        },
+        {
+          "matchNo": "41",
+          "competition": "F10 C Västra",
+          "round": "11",
+          "home": "BK Ljungsbro F16/17 Vit",
+          "away": "Mjölby AI FF F16",
+          "kickoff": "2026-08-30T10:00"
+        },
+        {
+          "matchNo": "42",
+          "competition": "F10 C Västra",
+          "round": "11",
+          "home": "Ödeshögs IK F16",
+          "away": "BK Zeros F16 Grön",
+          "kickoff": "2026-08-30T14:00"
+        },
+        {
+          "matchNo": "43",
+          "competition": "F10 C Västra",
+          "round": "11",
+          "home": "Skeninge IK F16/17",
+          "away": "Boxholms IF Boxholms IF F16",
+          "kickoff": "2026-08-30T16:00"
+        },
+        {
+          "matchNo": "44",
+          "competition": "F10 C Västra",
+          "round": "11",
+          "home": "Borensbergs IF FK F2016",
+          "away": "Vadstena GIF 3",
+          "kickoff": "2026-09-02T18:30"
+        },
+        {
+          "matchNo": "45",
+          "competition": "F10 C Västra",
+          "round": "12",
+          "home": "Mjölby AI FF F16",
+          "away": "BK Zeros F16 Grön",
+          "kickoff": "2026-09-05T11:00"
+        },
+        {
+          "matchNo": "46",
+          "competition": "F10 C Västra",
+          "round": "12",
+          "home": "Boxholms IF Boxholms IF F16",
+          "away": "BK Ljungsbro F16/17 Vit",
+          "kickoff": "2026-09-05T13:00"
+        },
+        {
+          "matchNo": "47",
+          "competition": "F10 C Västra",
+          "round": "12",
+          "home": "Borensbergs IF FK F2016",
+          "away": "Skeninge IK F16/17",
+          "kickoff": "2026-09-06T14:00"
+        },
+        {
+          "matchNo": "48",
+          "competition": "F10 C Västra",
+          "round": "12",
+          "home": "Vadstena GIF 3",
+          "away": "Mantorps FF Vit",
+          "kickoff": "2026-09-06T14:00"
+        },
+        {
+          "matchNo": "49",
+          "competition": "F10 C Västra",
+          "round": "13",
+          "home": "BK Zeros F16 Grön",
+          "away": "Boxholms IF Boxholms IF F16",
+          "kickoff": "2026-09-12T10:00"
+        },
+        {
+          "matchNo": "50",
+          "competition": "F10 C Västra",
+          "round": "13",
+          "home": "Mantorps FF Vit",
+          "away": "Borensbergs IF FK F2016",
+          "kickoff": "2026-09-12T10:00"
+        },
+        {
+          "matchNo": "51",
+          "competition": "F10 C Västra",
+          "round": "13",
+          "home": "Ödeshögs IK F16",
+          "away": "Mjölby AI FF F16",
+          "kickoff": "2026-09-13T14:00"
+        },
+        {
+          "matchNo": "52",
+          "competition": "F10 C Västra",
+          "round": "13",
+          "home": "BK Ljungsbro F16/17 Vit",
+          "away": "Vadstena GIF 3",
+          "kickoff": "2026-09-16T17:45"
+        },
+        {
+          "matchNo": "53",
+          "competition": "F10 C Västra",
+          "round": "14",
+          "home": "Mjölby AI FF F16",
+          "away": "Skeninge IK F16/17",
+          "kickoff": "2026-09-19T11:00"
+        },
+        {
+          "matchNo": "54",
+          "competition": "F10 C Västra",
+          "round": "14",
+          "home": "Borensbergs IF FK F2016",
+          "away": "BK Ljungsbro F16/17 Vit",
+          "kickoff": "2026-09-20T11:00"
+        },
+        {
+          "matchNo": "55",
+          "competition": "F10 C Västra",
+          "round": "14",
+          "home": "Vadstena GIF 3",
+          "away": "Boxholms IF Boxholms IF F16",
+          "kickoff": "2026-09-20T14:00"
+        },
+        {
+          "matchNo": "56",
+          "competition": "F10 C Västra",
+          "round": "14",
+          "home": "Mantorps FF Vit",
+          "away": "Ödeshögs IK F16",
+          "kickoff": "2026-09-20T17:00"
+        }
+      ],
+      "verdicts": [
+        {
+          "home": 3,
+          "away": 1
+        },
+        {
+          "home": 2,
+          "away": 3
+        },
+        {
+          "home": 2,
+          "away": 1
+        },
+        {
+          "home": 3,
+          "away": 1
+        },
+        {
+          "home": 1,
+          "away": 1
+        },
+        {
+          "home": 2,
+          "away": 2
+        },
+        {
+          "home": 3,
+          "away": 3
+        },
+        {
+          "home": 3,
+          "away": 3
+        },
+        {
+          "home": 3,
+          "away": 1
+        },
+        {
+          "home": 1,
+          "away": 1
+        },
+        {
+          "home": 3,
+          "away": 3
+        },
+        {
+          "home": 2,
+          "away": 3
+        },
+        {
+          "home": 1,
+          "away": 1
+        },
+        {
+          "home": 1,
+          "away": 1
+        },
+        {
+          "home": 1,
+          "away": 2
+        },
+        {
+          "home": 2,
+          "away": 2
+        },
+        {
+          "home": 3,
+          "away": 2
+        },
+        {
+          "home": 1,
+          "away": 2
+        },
+        {
+          "home": 1,
+          "away": 2
+        },
+        {
+          "home": 3,
+          "away": 1
+        },
+        {
+          "home": 1,
+          "away": 1
+        },
+        {
+          "home": 1,
+          "away": 2
+        },
+        {
+          "home": 2,
+          "away": 2
+        },
+        {
+          "home": 3,
+          "away": 3
+        },
+        {
+          "home": 3,
+          "away": 2
+        },
+        {
+          "home": 2,
+          "away": 1
+        },
+        {
+          "home": 1,
+          "away": 1
+        },
+        {
+          "home": 1,
+          "away": 3
+        },
+        {
+          "home": 1,
+          "away": 1
+        },
+        {
+          "home": 3,
+          "away": 1
+        },
+        {
+          "home": 2,
+          "away": 2
+        },
+        {
+          "home": 2,
+          "away": 2
+        },
+        {
+          "home": 1,
+          "away": 2
+        },
+        {
+          "home": 2,
+          "away": 3
+        },
+        {
+          "home": 3,
+          "away": 2
+        },
+        {
+          "home": 2,
+          "away": 2
+        },
+        {
+          "home": 2,
+          "away": 3
+        },
+        {
+          "home": 2,
+          "away": 3
+        },
+        {
+          "home": 2,
+          "away": 1
+        },
+        {
+          "home": 2,
+          "away": 1
+        },
+        {
+          "home": 2,
+          "away": 2
+        },
+        {
+          "home": 2,
+          "away": 1
+        },
+        {
+          "home": 2,
+          "away": 1
+        },
+        {
+          "home": 2,
+          "away": 3
+        },
+        {
+          "home": 3,
+          "away": 1
+        },
+        {
+          "home": 2,
+          "away": 1
+        },
+        {
+          "home": 3,
+          "away": 1
+        },
+        {
+          "home": 1,
+          "away": 1
+        },
+        {
+          "home": 3,
+          "away": 1
+        },
+        {
+          "home": 1,
+          "away": 1
+        },
+        {
+          "home": 3,
+          "away": 2
+        },
+        {
+          "home": 3,
+          "away": 3
+        },
+        {
+          "home": 2,
+          "away": 1
+        },
+        {
+          "home": 1,
+          "away": 3
+        },
+        {
+          "home": 3,
+          "away": 1
+        },
+        {
+          "home": 3,
+          "away": 3
+        }
+      ]
+    },
+    {
+      "name": "F10 B",
+      "matches": [
+        {
+          "matchNo": "1",
+          "competition": "F10 B",
+          "round": "1",
+          "home": "Dagsbergs IF -16",
+          "away": "Mantorps FF svart",
+          "kickoff": "2026-05-02T10:00"
+        },
+        {
+          "matchNo": "2",
+          "competition": "F10 B",
+          "round": "1",
+          "home": "Smedby AIS F2016 Svart",
+          "away": "BK Kenty F2016",
+          "kickoff": "2026-05-02T13:00"
+        },
+        {
+          "matchNo": "3",
+          "competition": "F10 B",
+          "round": "1",
+          "home": "IK Waria Flickor 2016",
+          "away": "IFK Nyköping",
+          "kickoff": "2026-05-02T14:30"
+        },
+        {
+          "matchNo": "4",
+          "competition": "F10 B",
+          "round": "1",
+          "home": "Hjulsbro IK F-2016 Blå",
+          "away": "Hjulsbro IK F-2016 Vit",
+          "kickoff": "2026-05-03T12:30"
+        },
+        {
+          "matchNo": "5",
+          "competition": "F10 B",
+          "round": "1",
+          "home": "Smedby AIS F2016 Gul",
+          "away": "Grebo IK F15/16",
+          "kickoff": "2026-05-03T15:00"
+        },
+        {
+          "matchNo": "6",
+          "competition": "F10 B",
+          "round": "1",
+          "home": "Lindö FF F2016/17",
+          "away": "IK Östria Lambohov Gul",
+          "kickoff": "2026-05-03T16:30"
+        },
+        {
+          "matchNo": "7",
+          "competition": "F10 B",
+          "round": "2",
+          "home": "Hjulsbro IK F-2016 Vit",
+          "away": "Dagsbergs IF -16",
+          "kickoff": "2026-05-09T12:30"
+        },
+        {
+          "matchNo": "8",
+          "competition": "F10 B",
+          "round": "2",
+          "home": "IK Östria Lambohov Gul",
+          "away": "IK Waria Flickor 2016",
+          "kickoff": "2026-05-10T10:00"
+        },
+        {
+          "matchNo": "9",
+          "competition": "F10 B",
+          "round": "2",
+          "home": "IFK Nyköping",
+          "away": "Smedby AIS F2016 Gul",
+          "kickoff": "2026-05-10T10:00"
+        },
+        {
+          "matchNo": "10",
+          "competition": "F10 B",
+          "round": "2",
+          "home": "Mantorps FF svart",
+          "away": "Smedby AIS F2016 Svart",
+          "kickoff": "2026-05-10T13:30"
+        },
+        {
+          "matchNo": "11",
+          "competition": "F10 B",
+          "round": "2",
+          "home": "Grebo IK F15/16",
+          "away": "Lindö FF F2016/17",
+          "kickoff": "2026-05-10T14:00"
+        },
+        {
+          "matchNo": "12",
+          "competition": "F10 B",
+          "round": "2",
+          "home": "BK Kenty F2016",
+          "away": "Hjulsbro IK F-2016 Blå",
+          "kickoff": "2026-05-10T16:00"
+        },
+        {
+          "matchNo": "13",
+          "competition": "F10 B",
+          "round": "3",
+          "home": "Dagsbergs IF -16",
+          "away": "IK Östria Lambohov Gul",
+          "kickoff": "2026-05-16T10:00"
+        },
+        {
+          "matchNo": "14",
+          "competition": "F10 B",
+          "round": "3",
+          "home": "Hjulsbro IK F-2016 Blå",
+          "away": "Mantorps FF svart",
+          "kickoff": "2026-05-16T10:30"
+        },
+        {
+          "matchNo": "15",
+          "competition": "F10 B",
+          "round": "3",
+          "home": "Smedby AIS F2016 Gul",
+          "away": "IK Waria Flickor 2016",
+          "kickoff": "2026-05-16T11:00"
+        },
+        {
+          "matchNo": "16",
+          "competition": "F10 B",
+          "round": "3",
+          "home": "BK Kenty F2016",
+          "away": "Hjulsbro IK F-2016 Vit",
+          "kickoff": "2026-05-17T16:00"
+        },
+        {
+          "matchNo": "17",
+          "competition": "F10 B",
+          "round": "3",
+          "home": "Smedby AIS F2016 Svart",
+          "away": "Grebo IK F15/16",
+          "kickoff": "2026-05-17T17:00"
+        },
+        {
+          "matchNo": "18",
+          "competition": "F10 B",
+          "round": "3",
+          "home": "Lindö FF F2016/17",
+          "away": "IFK Nyköping",
+          "kickoff": "2026-09-20T13:30"
+        },
+        {
+          "matchNo": "19",
+          "competition": "F10 B",
+          "round": "4",
+          "home": "IK Waria Flickor 2016",
+          "away": "Lindö FF F2016/17",
+          "kickoff": "2026-05-21T18:00"
+        },
+        {
+          "matchNo": "20",
+          "competition": "F10 B",
+          "round": "4",
+          "home": "Mantorps FF svart",
+          "away": "BK Kenty F2016",
+          "kickoff": "2026-05-23T10:00"
+        },
+        {
+          "matchNo": "21",
+          "competition": "F10 B",
+          "round": "4",
+          "home": "Grebo IK F15/16",
+          "away": "Hjulsbro IK F-2016 Blå",
+          "kickoff": "2026-05-23T10:30"
+        },
+        {
+          "matchNo": "22",
+          "competition": "F10 B",
+          "round": "4",
+          "home": "IFK Nyköping",
+          "away": "Dagsbergs IF -16",
+          "kickoff": "2026-05-24T12:00"
+        },
+        {
+          "matchNo": "23",
+          "competition": "F10 B",
+          "round": "4",
+          "home": "Hjulsbro IK F-2016 Vit",
+          "away": "Smedby AIS F2016 Svart",
+          "kickoff": "2026-05-24T12:30"
+        },
+        {
+          "matchNo": "24",
+          "competition": "F10 B",
+          "round": "4",
+          "home": "IK Östria Lambohov Gul",
+          "away": "Smedby AIS F2016 Gul",
+          "kickoff": "2026-05-24T13:00"
+        },
+        {
+          "matchNo": "25",
+          "competition": "F10 B",
+          "round": "5",
+          "home": "Dagsbergs IF -16",
+          "away": "IK Waria Flickor 2016",
+          "kickoff": "2026-05-30T13:00"
+        },
+        {
+          "matchNo": "26",
+          "competition": "F10 B",
+          "round": "5",
+          "home": "Smedby AIS F2016 Svart",
+          "away": "IK Östria Lambohov Gul",
+          "kickoff": "2026-05-30T13:00"
+        },
+        {
+          "matchNo": "27",
+          "competition": "F10 B",
+          "round": "5",
+          "home": "Hjulsbro IK F-2016 Vit",
+          "away": "Mantorps FF svart",
+          "kickoff": "2026-05-30T14:30"
+        },
+        {
+          "matchNo": "28",
+          "competition": "F10 B",
+          "round": "5",
+          "home": "Hjulsbro IK F-2016 Blå",
+          "away": "IFK Nyköping",
+          "kickoff": "2026-05-31T14:30"
+        },
+        {
+          "matchNo": "29",
+          "competition": "F10 B",
+          "round": "5",
+          "home": "BK Kenty F2016",
+          "away": "Grebo IK F15/16",
+          "kickoff": "2026-05-31T16:00"
+        },
+        {
+          "matchNo": "30",
+          "competition": "F10 B",
+          "round": "5",
+          "home": "Lindö FF F2016/17",
+          "away": "Smedby AIS F2016 Gul",
+          "kickoff": "2026-05-31T16:30"
+        },
+        {
+          "matchNo": "31",
+          "competition": "F10 B",
+          "round": "6",
+          "home": "IK Östria Lambohov Gul",
+          "away": "BK Kenty F2016",
+          "kickoff": "2026-06-06T10:00"
+        },
+        {
+          "matchNo": "32",
+          "competition": "F10 B",
+          "round": "6",
+          "home": "Grebo IK F15/16",
+          "away": "Hjulsbro IK F-2016 Vit",
+          "kickoff": "2026-06-06T10:30"
+        },
+        {
+          "matchNo": "33",
+          "competition": "F10 B",
+          "round": "6",
+          "home": "IK Waria Flickor 2016",
+          "away": "Hjulsbro IK F-2016 Blå",
+          "kickoff": "2026-06-06T11:00"
+        },
+        {
+          "matchNo": "34",
+          "competition": "F10 B",
+          "round": "6",
+          "home": "IFK Nyköping",
+          "away": "Smedby AIS F2016 Svart",
+          "kickoff": "2026-06-07T10:00"
+        },
+        {
+          "matchNo": "35",
+          "competition": "F10 B",
+          "round": "6",
+          "home": "Mantorps FF svart",
+          "away": "Lindö FF F2016/17",
+          "kickoff": "2026-06-07T11:00"
+        },
+        {
+          "matchNo": "36",
+          "competition": "F10 B",
+          "round": "6",
+          "home": "Smedby AIS F2016 Gul",
+          "away": "Dagsbergs IF -16",
+          "kickoff": "2026-06-07T17:00"
+        },
+        {
+          "matchNo": "37",
+          "competition": "F10 B",
+          "round": "7",
+          "home": "BK Kenty F2016",
+          "away": "IK Waria Flickor 2016",
+          "kickoff": "2026-05-28T18:00"
+        },
+        {
+          "matchNo": "38",
+          "competition": "F10 B",
+          "round": "7",
+          "home": "Dagsbergs IF -16",
+          "away": "Grebo IK F15/16",
+          "kickoff": "2026-06-09T18:15"
+        },
+        {
+          "matchNo": "39",
+          "competition": "F10 B",
+          "round": "7",
+          "home": "Hjulsbro IK F-2016 Blå",
+          "away": "Lindö FF F2016/17",
+          "kickoff": "2026-06-13T12:30"
+        },
+        {
+          "matchNo": "40",
+          "competition": "F10 B",
+          "round": "7",
+          "home": "Hjulsbro IK F-2016 Vit",
+          "away": "IFK Nyköping",
+          "kickoff": "2026-06-14T12:30"
+        },
+        {
+          "matchNo": "41",
+          "competition": "F10 B",
+          "round": "7",
+          "home": "Mantorps FF svart",
+          "away": "IK Östria Lambohov Gul",
+          "kickoff": "2026-06-14T15:30"
+        },
+        {
+          "matchNo": "42",
+          "competition": "F10 B",
+          "round": "7",
+          "home": "Smedby AIS F2016 Svart",
+          "away": "Smedby AIS F2016 Gul",
+          "kickoff": "2026-12-31"
+        },
+        {
+          "matchNo": "43",
+          "competition": "F10 B",
+          "round": "8",
+          "home": "IK Östria Lambohov Gul",
+          "away": "Hjulsbro IK F-2016 Vit",
+          "kickoff": "2026-08-08T11:00"
+        },
+        {
+          "matchNo": "44",
+          "competition": "F10 B",
+          "round": "8",
+          "home": "Grebo IK F15/16",
+          "away": "Mantorps FF svart",
+          "kickoff": "2026-08-09T10:30"
+        },
+        {
+          "matchNo": "45",
+          "competition": "F10 B",
+          "round": "8",
+          "home": "Lindö FF F2016/17",
+          "away": "Dagsbergs IF -16",
+          "kickoff": "2026-08-09T11:00"
+        },
+        {
+          "matchNo": "46",
+          "competition": "F10 B",
+          "round": "8",
+          "home": "IFK Nyköping",
+          "away": "BK Kenty F2016",
+          "kickoff": "2026-08-09T12:00"
+        },
+        {
+          "matchNo": "47",
+          "competition": "F10 B",
+          "round": "8",
+          "home": "Smedby AIS F2016 Gul",
+          "away": "Hjulsbro IK F-2016 Blå",
+          "kickoff": "2026-08-12T18:00"
+        },
+        {
+          "matchNo": "48",
+          "competition": "F10 B",
+          "round": "8",
+          "home": "IK Waria Flickor 2016",
+          "away": "Smedby AIS F2016 Svart",
+          "kickoff": "2026-08-13T18:00"
+        },
+        {
+          "matchNo": "49",
+          "competition": "F10 B",
+          "round": "9",
+          "home": "Grebo IK F15/16",
+          "away": "IK Östria Lambohov Gul",
+          "kickoff": "2026-08-15T10:30"
+        },
+        {
+          "matchNo": "50",
+          "competition": "F10 B",
+          "round": "9",
+          "home": "Smedby AIS F2016 Svart",
+          "away": "Lindö FF F2016/17",
+          "kickoff": "2026-08-15T11:00"
+        },
+        {
+          "matchNo": "51",
+          "competition": "F10 B",
+          "round": "9",
+          "home": "Hjulsbro IK F-2016 Blå",
+          "away": "Dagsbergs IF -16",
+          "kickoff": "2026-08-15T12:30"
+        },
+        {
+          "matchNo": "52",
+          "competition": "F10 B",
+          "round": "9",
+          "home": "BK Kenty F2016",
+          "away": "Smedby AIS F2016 Gul",
+          "kickoff": "2026-08-16T14:00"
+        },
+        {
+          "matchNo": "53",
+          "competition": "F10 B",
+          "round": "9",
+          "home": "Hjulsbro IK F-2016 Vit",
+          "away": "IK Waria Flickor 2016",
+          "kickoff": "2026-08-16T14:30"
+        },
+        {
+          "matchNo": "54",
+          "competition": "F10 B",
+          "round": "9",
+          "home": "Mantorps FF svart",
+          "away": "IFK Nyköping",
+          "kickoff": "2026-08-16T15:30"
+        },
+        {
+          "matchNo": "55",
+          "competition": "F10 B",
+          "round": "10",
+          "home": "Dagsbergs IF -16",
+          "away": "Smedby AIS F2016 Svart",
+          "kickoff": "2026-08-22T10:00"
+        },
+        {
+          "matchNo": "56",
+          "competition": "F10 B",
+          "round": "10",
+          "home": "Hjulsbro IK F-2016 Blå",
+          "away": "IK Östria Lambohov Gul",
+          "kickoff": "2026-08-22T12:30"
+        },
+        {
+          "matchNo": "57",
+          "competition": "F10 B",
+          "round": "10",
+          "home": "Lindö FF F2016/17",
+          "away": "BK Kenty F2016",
+          "kickoff": "2026-08-22T13:30"
+        },
+        {
+          "matchNo": "58",
+          "competition": "F10 B",
+          "round": "10",
+          "home": "IK Waria Flickor 2016",
+          "away": "Mantorps FF svart",
+          "kickoff": "2026-08-22T14:00"
+        },
+        {
+          "matchNo": "59",
+          "competition": "F10 B",
+          "round": "10",
+          "home": "IFK Nyköping",
+          "away": "Grebo IK F15/16",
+          "kickoff": "2026-08-22T14:00"
+        },
+        {
+          "matchNo": "60",
+          "competition": "F10 B",
+          "round": "10",
+          "home": "Smedby AIS F2016 Gul",
+          "away": "Hjulsbro IK F-2016 Vit",
+          "kickoff": "2026-08-23T13:00"
+        },
+        {
+          "matchNo": "61",
+          "competition": "F10 B",
+          "round": "11",
+          "home": "Grebo IK F15/16",
+          "away": "IK Waria Flickor 2016",
+          "kickoff": "2026-08-29T10:30"
+        },
+        {
+          "matchNo": "62",
+          "competition": "F10 B",
+          "round": "11",
+          "home": "IK Östria Lambohov Gul",
+          "away": "IFK Nyköping",
+          "kickoff": "2026-08-29T11:00"
+        },
+        {
+          "matchNo": "63",
+          "competition": "F10 B",
+          "round": "11",
+          "home": "Smedby AIS F2016 Svart",
+          "away": "Hjulsbro IK F-2016 Blå",
+          "kickoff": "2026-08-29T13:00"
+        },
+        {
+          "matchNo": "64",
+          "competition": "F10 B",
+          "round": "11",
+          "home": "Mantorps FF svart",
+          "away": "Smedby AIS F2016 Gul",
+          "kickoff": "2026-08-30T12:00"
+        },
+        {
+          "matchNo": "65",
+          "competition": "F10 B",
+          "round": "11",
+          "home": "BK Kenty F2016",
+          "away": "Dagsbergs IF -16",
+          "kickoff": "2026-08-30T14:00"
+        },
+        {
+          "matchNo": "66",
+          "competition": "F10 B",
+          "round": "11",
+          "home": "Hjulsbro IK F-2016 Vit",
+          "away": "Lindö FF F2016/17",
+          "kickoff": "2026-08-30T14:30"
+        },
+        {
+          "matchNo": "67",
+          "competition": "F10 B",
+          "round": "12",
+          "home": "Grebo IK F15/16",
+          "away": "Smedby AIS F2016 Gul",
+          "kickoff": "2026-09-05T10:30"
+        },
+        {
+          "matchNo": "68",
+          "competition": "F10 B",
+          "round": "12",
+          "home": "IFK Nyköping",
+          "away": "IK Waria Flickor 2016",
+          "kickoff": "2026-09-06T10:00"
+        },
+        {
+          "matchNo": "69",
+          "competition": "F10 B",
+          "round": "12",
+          "home": "BK Kenty F2016",
+          "away": "Smedby AIS F2016 Svart",
+          "kickoff": "2026-09-06T14:00"
+        },
+        {
+          "matchNo": "70",
+          "competition": "F10 B",
+          "round": "12",
+          "home": "IK Östria Lambohov Gul",
+          "away": "Lindö FF F2016/17",
+          "kickoff": "2026-09-06T14:00"
+        },
+        {
+          "matchNo": "71",
+          "competition": "F10 B",
+          "round": "12",
+          "home": "Hjulsbro IK F-2016 Vit",
+          "away": "Hjulsbro IK F-2016 Blå",
+          "kickoff": "2026-09-06T14:30"
+        },
+        {
+          "matchNo": "72",
+          "competition": "F10 B",
+          "round": "12",
+          "home": "Mantorps FF svart",
+          "away": "Dagsbergs IF -16",
+          "kickoff": "2026-09-26T11:00"
+        },
+        {
+          "matchNo": "73",
+          "competition": "F10 B",
+          "round": "13",
+          "home": "Dagsbergs IF -16",
+          "away": "Hjulsbro IK F-2016 Vit",
+          "kickoff": "2026-09-12T10:00"
+        },
+        {
+          "matchNo": "74",
+          "competition": "F10 B",
+          "round": "13",
+          "home": "Smedby AIS F2016 Gul",
+          "away": "IFK Nyköping",
+          "kickoff": "2026-09-12T11:00"
+        },
+        {
+          "matchNo": "75",
+          "competition": "F10 B",
+          "round": "13",
+          "home": "Hjulsbro IK F-2016 Blå",
+          "away": "BK Kenty F2016",
+          "kickoff": "2026-09-12T12:30"
+        },
+        {
+          "matchNo": "76",
+          "competition": "F10 B",
+          "round": "13",
+          "home": "IK Waria Flickor 2016",
+          "away": "IK Östria Lambohov Gul",
+          "kickoff": "2026-09-13T11:00"
+        },
+        {
+          "matchNo": "77",
+          "competition": "F10 B",
+          "round": "13",
+          "home": "Smedby AIS F2016 Svart",
+          "away": "Mantorps FF svart",
+          "kickoff": "2026-09-13T13:00"
+        },
+        {
+          "matchNo": "78",
+          "competition": "F10 B",
+          "round": "13",
+          "home": "Lindö FF F2016/17",
+          "away": "Grebo IK F15/16",
+          "kickoff": "2026-09-13T16:30"
+        },
+        {
+          "matchNo": "79",
+          "competition": "F10 B",
+          "round": "14",
+          "home": "IFK Nyköping",
+          "away": "Lindö FF F2016/17",
+          "kickoff": "2026-05-17T16:00"
+        },
+        {
+          "matchNo": "80",
+          "competition": "F10 B",
+          "round": "14",
+          "home": "IK Waria Flickor 2016",
+          "away": "Smedby AIS F2016 Gul",
+          "kickoff": "2026-09-19T11:00"
+        },
+        {
+          "matchNo": "81",
+          "competition": "F10 B",
+          "round": "14",
+          "home": "Hjulsbro IK F-2016 Vit",
+          "away": "BK Kenty F2016",
+          "kickoff": "2026-09-19T12:30"
+        },
+        {
+          "matchNo": "82",
+          "competition": "F10 B",
+          "round": "14",
+          "home": "IK Östria Lambohov Gul",
+          "away": "Dagsbergs IF -16",
+          "kickoff": "2026-09-19T14:00"
+        },
+        {
+          "matchNo": "83",
+          "competition": "F10 B",
+          "round": "14",
+          "home": "Mantorps FF svart",
+          "away": "Hjulsbro IK F-2016 Blå",
+          "kickoff": "2026-09-20T10:00"
+        },
+        {
+          "matchNo": "84",
+          "competition": "F10 B",
+          "round": "14",
+          "home": "Grebo IK F15/16",
+          "away": "Smedby AIS F2016 Svart",
+          "kickoff": "2026-09-20T10:30"
+        }
+      ],
+      "verdicts": [
+        {
+          "home": 2,
+          "away": 1
+        },
+        {
+          "home": 1,
+          "away": 3
+        },
+        {
+          "home": 3,
+          "away": 1
+        },
+        {
+          "home": 1,
+          "away": 2
+        },
+        {
+          "home": 2,
+          "away": 1
+        },
+        {
+          "home": 1,
+          "away": 2
+        },
+        {
+          "home": 2,
+          "away": 1
+        },
+        {
+          "home": 2,
+          "away": 3
+        },
+        {
+          "home": 2,
+          "away": 1
+        },
+        {
+          "home": 3,
+          "away": 3
+        },
+        {
+          "home": 2,
+          "away": 1
+        },
+        {
+          "home": 3,
+          "away": 3
+        },
+        {
+          "home": 3,
+          "away": 3
+        },
+        {
+          "home": 2,
+          "away": 3
+        },
+        {
+          "home": 2,
+          "away": 1
+        },
+        {
+          "home": 2,
+          "away": 1
+        },
+        {
+          "home": 3,
+          "away": 3
+        },
+        {
+          "home": 1,
+          "away": 3
+        },
+        {
+          "home": 2,
+          "away": 2
+        },
+        {
+          "home": 3,
+          "away": 3
+        },
+        {
+          "home": 2,
+          "away": 3
+        },
+        {
+          "home": 2,
+          "away": 3
+        },
+        {
+          "home": 3,
+          "away": 1
+        },
+        {
+          "home": 3,
+          "away": 2
+        },
+        {
+          "home": 1,
+          "away": 2
+        },
+        {
+          "home": 2,
+          "away": 2
+        },
+        {
+          "home": 3,
+          "away": 2
+        },
+        {
+          "home": 1,
+          "away": 2
+        },
+        {
+          "home": 1,
+          "away": 2
+        },
+        {
+          "home": 1,
+          "away": 3
+        },
+        {
+          "home": 1,
+          "away": 2
+        },
+        {
+          "home": 2,
+          "away": 3
+        },
+        {
+          "home": 1,
+          "away": 2
+        },
+        {
+          "home": 3,
+          "away": 1
+        },
+        {
+          "home": 2,
+          "away": 3
+        },
+        {
+          "home": 2,
+          "away": 1
+        },
+        {
+          "home": 2,
+          "away": 2
+        },
+        {
+          "home": 1,
+          "away": 3
+        },
+        {
+          "home": 2,
+          "away": 1
+        },
+        {
+          "home": 1,
+          "away": 3
+        },
+        {
+          "home": 3,
+          "away": 1
+        },
+        {
+          "home": 1,
+          "away": 2
+        },
+        {
+          "home": 2,
+          "away": 1
+        },
+        {
+          "home": 1,
+          "away": 3
+        },
+        {
+          "home": 1,
+          "away": 3
+        },
+        {
+          "home": 1,
+          "away": 2
+        },
+        {
+          "home": 1,
+          "away": 1
+        },
+        {
+          "home": 2,
+          "away": 1
+        },
+        {
+          "home": 3,
+          "away": 1
+        },
+        {
+          "home": 3,
+          "away": 3
+        },
+        {
+          "home": 1,
+          "away": 2
+        },
+        {
+          "home": 3,
+          "away": 1
+        },
+        {
+          "home": 2,
+          "away": 2
+        },
+        {
+          "home": 3,
+          "away": 2
+        },
+        {
+          "home": 3,
+          "away": 3
+        },
+        {
+          "home": 2,
+          "away": 2
+        },
+        {
+          "home": 2,
+          "away": 3
+        },
+        {
+          "home": 1,
+          "away": 1
+        },
+        {
+          "home": 1,
+          "away": 1
+        },
+        {
+          "home": 1,
+          "away": 2
+        },
+        {
+          "home": 3,
+          "away": 1
+        },
+        {
+          "home": 2,
+          "away": 1
+        },
+        {
+          "home": 2,
+          "away": 3
+        },
+        {
+          "home": 3,
+          "away": 2
+        },
+        {
+          "home": 2,
+          "away": 3
+        },
+        {
+          "home": 3,
+          "away": 3
+        },
+        {
+          "home": 3,
+          "away": 2
+        },
+        {
+          "home": 1,
+          "away": 3
+        },
+        {
+          "home": 3,
+          "away": 3
+        },
+        {
+          "home": 3,
+          "away": 3
+        },
+        {
+          "home": 2,
+          "away": 2
+        },
+        {
+          "home": 2,
+          "away": 3
+        },
+        {
+          "home": 3,
+          "away": 1
+        },
+        {
+          "home": 2,
+          "away": 1
+        },
+        {
+          "home": 3,
+          "away": 1
+        },
+        {
+          "home": 3,
+          "away": 2
+        },
+        {
+          "home": 1,
+          "away": 3
+        },
+        {
+          "home": 2,
+          "away": 1
+        },
+        {
+          "home": 2,
+          "away": 2
+        },
+        {
+          "home": 2,
+          "away": 1
+        },
+        {
+          "home": 3,
+          "away": 1
+        },
+        {
+          "home": 1,
+          "away": 3
+        },
+        {
+          "home": 3,
+          "away": 3
+        },
+        {
+          "home": 3,
+          "away": 2
+        }
+      ]
+    }
+  ]
+}

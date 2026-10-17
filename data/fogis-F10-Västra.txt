@@ -1,0 +1,77 @@
+
+Tävling	MatchNr	Omg	Hemmalag	Bortalag	Datum / tid	Resultat	Anläggning	Anl.nr.	Plannr.	Karta	Domare	Varningar
+F10 C Mellersta/Västra	232802001	1	BK Zeros F16 Vit	Rimforsa IF F15/16	2026-05-02 11:30		Z-parken	23059	7	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802003	1	Kisa BK F2016	Smedby AIS F2016 Vit	2026-05-03 (Tid ej fastställd)		Kisa IP C-plan	23024	3	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802005	1	Vadstena GIF 1	Hemgårdarnas BK	2026-05-03 10:00		Kungsvalla IP	23117	1	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802004	1	Malmslätts AIK	BK Derby F- 16/17 F-10	2026-05-03 10:00		Hellgrenshagen D-plan	23008	6	Google Bing Hitta.se		Krockar med Malmslätts AIK Vit - Motala AIF FK P14/15 Svart (P12 A)
+F10 C Mellersta/Västra	232802002	1	BK Ljungsbro F16/17 Svart	Linköping BK Tinnis /LBK Gottfridsberg	2026-05-03 10:00		Tellbyvallen 7 mot 7 plan 1	23217	1	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802010	2	Smedby AIS F2016 Vit	BK Zeros F16 Vit	2026-05-10 (Tid ej fastställd)							
+F10 C Mellersta/Västra	232802007	2	Hemgårdarnas BK	Kisa BK F2016	2026-05-10 10:00		Lycketorp IP	23031	3	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802008	2	Linköping BK Tinnis /LBK Gottfridsberg	Malmslätts AIK	2026-05-10 11:00		Skarpans IP	23067	2	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802006	2	BK Derby F- 16/17 F-10	Vadstena GIF 1	2026-05-10 13:00		Grenadjärvallen A	23045	1	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802009	2	Rimforsa IF F15/16	BK Ljungsbro F16/17 Svart	2026-05-10 16:00		Rimaster Arena	23123	4	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802014	3	Malmslätts AIK	Smedby AIS F2016 Vit	2026-05-17 (Tid ej fastställd)		Hellgrenshagen Konstgräs	23008	3	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802013	3	Kisa BK F2016	Rimforsa IF F15/16	2026-05-17 10:00		Kisa IP C-plan	23024	3	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802012	3	BK Ljungsbro F16/17 Svart	BK Zeros F16 Vit	2026-05-17 10:00		Tellbyvallen 7 mot 7 plan 1	23217	1	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802015	3	Vadstena GIF 1	Linköping BK Tinnis /LBK Gottfridsberg	2026-05-17 12:00		Kungsvalla IP	23117	1	Google Bing Hitta.se		Krockar med 231703018, Vadstena GIF (2015) - Mjölby AI FF P15 Svart (P11 C Västra)
+F10 C Mellersta/Västra	232802011	3	BK Derby F- 16/17 F-10	Hemgårdarnas BK	2026-05-17 13:00		Grenadjärvallen A	23045	1	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802019	4	Rimforsa IF F15/16	Vadstena GIF 1	2026-05-23 10:00		Rimaster Arena	23123	4	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802020	4	Smedby AIS F2016 Vit	BK Ljungsbro F16/17 Svart	2026-05-24 (Tid ej fastställd)							
+F10 C Mellersta/Västra	232802017	4	Hemgårdarnas BK	Malmslätts AIK	2026-05-24 10:00		Lycketorp IP	23031	3	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802018	4	Linköping BK Tinnis /LBK Gottfridsberg	BK Derby F- 16/17 F-10	2026-05-24 11:00		Skarpans IP	23067	2	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802016	4	BK Zeros F16 Vit	Kisa BK F2016	2026-05-24 11:30		Z-parken	23059	7	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802021	5	BK Derby F- 16/17 F-10	Rimforsa IF F15/16	2026-05-30 12:00		Grenadjärvallen A	23045	1	Google Bing Hitta.se		Krockar med 231704029, BK Derby P 2015 Grön - Linköpings FF 2015 (P11 C Mellersta 1)
+F10 C Mellersta/Västra	232802025	5	Vadstena GIF 1	Smedby AIS F2016 Vit	2026-05-31 (Tid ej fastställd)		Kungsvalla IP	23117		Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802022	5	Hemgårdarnas BK	Linköping BK Tinnis /LBK Gottfridsberg	2026-05-31 10:00		Lycketorp IP	23031	3	Google Bing Hitta.se		Krockar med 231801034, Hemgårdarnas BK - Norrköpings IF Bosna P2016 Blå (P10 B Mellersta)
+F10 C Mellersta/Västra	232802023	5	Kisa BK F2016	BK Ljungsbro F16/17 Svart	2026-05-31 11:00		Kisa IP C-plan	23024	3	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802024	5	Malmslätts AIK	BK Zeros F16 Vit	2026-05-31 15:00		Hellgrenshagen D-plan 3	23008	9	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802026	6	Vadstena GIF 1	BK Zeros F16 Vit	2026-06-06 10:00		Kungsvalla IP	23117	1	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802028	6	Linköping BK Tinnis /LBK Gottfridsberg	Kisa BK F2016	2026-06-06 11:00		Skarpans IP	23067	2	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802030	6	Smedby AIS F2016 Vit	BK Derby F- 16/17 F-10	2026-06-07 (Tid ej fastställd)							
+F10 C Mellersta/Västra	232802027	6	BK Ljungsbro F16/17 Svart	Malmslätts AIK	2026-06-07 12:00		Tellbyvallen 7 mot 7 plan 1	23217	1	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802029	6	Rimforsa IF F15/16	Hemgårdarnas BK	2026-06-07 13:30		Rimaster Arena	23123	4	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802033	7	Linköping BK Tinnis /LBK Gottfridsberg	Smedby AIS F2016 Vit	2026-06-14 (Tid ej fastställd)		Lingvallen	23106	3	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802034	7	Malmslätts AIK	Rimforsa IF F15/16	2026-06-14 10:00		Hellgrenshagen D-plan 1	23008	7	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802032	7	Hemgårdarnas BK	BK Zeros F16 Vit	2026-06-14 10:00		Lycketorp IP	23031	3	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802035	7	Vadstena GIF 1	Kisa BK F2016	2026-06-14 12:00		Kungsvalla IP	23117	1	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802031	7	BK Derby F- 16/17 F-10	BK Ljungsbro F16/17 Svart	2026-06-14 14:00		Grenadjärvallen A	23045	1	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802039	8	Rimforsa IF F15/16	Linköping BK Tinnis /LBK Gottfridsberg	2026-08-08 11:00		Rimaster Arena	23123	5	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802037	8	BK Ljungsbro F16/17 Svart	Vadstena GIF 1	2026-08-09 10:00		Tellbyvallen 7 mot 7 plan 1	23217	1	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802038	8	Kisa BK F2016	Malmslätts AIK	2026-08-09 11:00		Kisa IP C-plan	23024	3	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802036	8	BK Zeros F16 Vit	BK Derby F- 16/17 F-10	2026-08-09 13:30		Z-parken	23059	7	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802043	9	Linköping BK Tinnis /LBK Gottfridsberg	BK Zeros F16 Vit	2026-08-15 11:00		Skarpans IP	23067	2	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802042	9	Hemgårdarnas BK	BK Ljungsbro F16/17 Svart	2026-08-15 13:00		Lycketorp IP	23031	3	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802041	9	BK Derby F- 16/17 F-10	Kisa BK F2016	2026-08-16 14:00		Grenadjärvallen A	23045	1	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802045	9	Vadstena GIF 1	Malmslätts AIK	2026-08-16 14:00		Kungsvalla IP	23117	1	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802044	9	Rimforsa IF F15/16	Smedby AIS F2016 Vit	2026-08-16 15:00		Rimaster Arena	23123	4	Google Bing Hitta.se		Krockar med 231804068, Rimforsa IF P15/16 - Vidingsjö MoIF P2016 VIT (P10 C Mellersta 1)
+F10 C Mellersta/Västra	232802049	10	Malmslätts AIK	Linköping BK Tinnis /LBK Gottfridsberg	2026-08-20 18:00		Hellgrenshagen D-plan 2	23008	8	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802050	10	Vadstena GIF 1	BK Derby F- 16/17 F-10	2026-08-22 14:00		Kungsvalla IP	23117	1	Google Bing Hitta.se		Krockar med 230150088, Vadstena GIF - Skeninge IK (Division 5 Västra Herr Östergötland)
+F10 C Mellersta/Västra	232802047	10	BK Ljungsbro F16/17 Svart	Rimforsa IF F15/16	2026-08-23 10:00		Tellbyvallen 7 mot 7 plan 1	23217	1	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802048	10	Kisa BK F2016	Hemgårdarnas BK	2026-08-23 13:00		Kisa IP C-plan	23024	3	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802046	10	BK Zeros F16 Vit	Smedby AIS F2016 Vit	2026-08-23 14:00		Z-parken	23059	7	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802040	8	Smedby AIS F2016 Vit	Hemgårdarnas BK	2026-08-26 18:00		PreZero Arena D	23151	4	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802053	11	Linköping BK Tinnis /LBK Gottfridsberg	BK Ljungsbro F16/17 Svart	2026-08-29 11:00		Skarpans IP	23067	2	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802054	11	Rimforsa IF F15/16	BK Zeros F16 Vit	2026-08-29 12:00		Rimaster Arena	23123	5	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802052	11	Hemgårdarnas BK	Vadstena GIF 1	2026-08-30 10:00		Lycketorp IP	23031	3	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802055	11	Smedby AIS F2016 Vit	Kisa BK F2016	2026-08-30 13:00		PreZero Arena D	23151	4	Google Bing Hitta.se		WO
+F10 C Mellersta/Västra	232802051	11	BK Derby F- 16/17 F-10	Malmslätts AIK	2026-08-30 15:00		Grenadjärvallen A	23045	1	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802060	12	Vadstena GIF 1	Rimforsa IF F15/16	2026-09-05 14:00		Kungsvalla IP	23117	1	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802057	12	BK Ljungsbro F16/17 Svart	Smedby AIS F2016 Vit	2026-09-06 10:00		Tellbyvallen 7 mot 7 plan 1	23217	1	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802059	12	Malmslätts AIK	Hemgårdarnas BK	2026-09-06 11:00		Hellgrenshagen D-plan 3	23008	9	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802058	12	Kisa BK F2016	BK Zeros F16 Vit	2026-09-06 12:00		Kisa IP C-plan	23024	3	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802056	12	BK Derby F- 16/17 F-10	Linköping BK Tinnis /LBK Gottfridsberg	2026-09-06 12:00		Grenadjärvallen A	23045	1	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802063	13	Linköping BK Tinnis /LBK Gottfridsberg	Vadstena GIF 1	2026-09-12 11:00		Skarpans IP	23067	2	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802061	13	BK Zeros F16 Vit	BK Ljungsbro F16/17 Svart	2026-09-12 11:30		Z-parken	23059	7	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802064	13	Rimforsa IF F15/16	Kisa BK F2016	2026-09-13 10:00		Rimaster Arena	23123	5	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802062	13	Hemgårdarnas BK	BK Derby F- 16/17 F-10	2026-09-13 10:00		Lycketorp IP	23031	3	Google Bing Hitta.se		Krockar med 231801098, Hemgårdarnas BK - Hjulsbro IK P-2016 Blå (P10 B Mellersta)
+F10 C Mellersta/Västra	232802065	13	Smedby AIS F2016 Vit	Malmslätts AIK	2026-09-13 11:00		PreZero Arena D	23151	4	Google Bing Hitta.se		Krockar med 231806086, Smedby AIS P2016 Gul - Östra Ryds IF (P10 C Östra 1)
+F10 C Mellersta/Västra	232802070	14	BK Zeros F16 Vit	Vadstena GIF 1	2026-09-19 12:00		Z-parken	23059	7	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802066	14	BK Derby F- 16/17 F-10	Smedby AIS F2016 Vit	2026-09-19 13:00		Grenadjärvallen A	23045	1	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802069	14	Malmslätts AIK	BK Ljungsbro F16/17 Svart	2026-09-20 10:00		Hellgrenshagen D-plan 1	23008	7	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802067	14	Hemgårdarnas BK	Rimforsa IF F15/16	2026-09-20 10:00		Lycketorp IP	23031	3	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802068	14	Kisa BK F2016	Linköping BK Tinnis /LBK Gottfridsberg	2026-09-20 11:30		Kisa IP C-plan	23024	3	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802074	15	Rimforsa IF F15/16	BK Derby F- 16/17 F-10	2026-09-26 10:00		Rimaster Arena	23123	5	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802073	15	Linköping BK Tinnis /LBK Gottfridsberg	Hemgårdarnas BK	2026-09-26 11:00		Skarpans IP	23067	2	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802071	15	BK Zeros F16 Vit	Malmslätts AIK	2026-09-26 13:00		Z-parken	23059	7	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802075	15	Smedby AIS F2016 Vit	Vadstena GIF 1	2026-09-26 14:30		PreZero Arena D	23151	4	Google Bing Hitta.se		
+F10 C Mellersta/Västra	232802072	15	BK Ljungsbro F16/17 Svart	Kisa BK F2016	2026-09-27 10:00		Tellbyvallen 7 mot 7 plan 1	23217	1	Google Bing Hitta.se		

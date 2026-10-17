@@ -1,0 +1,15 @@
+Nästa möjliga steg (uppdaterad):
+
+(a) Köra en skarp FOGIS-import och justera fältnamn/endpoint utifrån det riktiga svaret.
+
+(b) KLART. Admin-UI för att lägga till föreningsmedlemmar och lagledare finns i AdminPage
+    (ClubMembers/TeamMembers). Inbjudningsflödet för personer UTAN konto är nu också byggt:
+    en föreningsadmin kan bjuda in en e-post till både förening och lag; saknar personen konto
+    läggs en väntande inbjudan som materialiseras automatiskt när personen registrerar sig
+    (migration 10, trigger claim_invites_for_new_user på auth.users). Ingen e-post skickas –
+    inbjudan ligger bara som väntande post. Se docs/korning.md för flödet.
+
+(c) Eventuellt visa seriehantering i AdminPage, eller ta bort det oanvända API:et.
+
+(d) Lägga till komponenttester för rapporterings- och importflödena. (Delvis: AdminPage.test.tsx
+    täcker nu medlems-/inbjudningsflödet; importflödet saknar fortfarande komponenttest.)

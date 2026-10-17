@@ -4,11 +4,13 @@ import { createBackend } from './backend.ts';
 import { useSession } from './useSession.ts';
 import { parseRoute, type Route } from './router.ts';
 import { Login } from './views/Login.tsx';
+import { Welcome } from './views/Welcome.tsx';
 import { Shell } from './views/Shell.tsx';
 import { Home } from './views/Home.tsx';
 import { TeamPage } from './views/TeamPage.tsx';
 import { AdminPage } from './views/AdminPage.tsx';
 import { FederationPage } from './views/FederationPage.tsx';
+import { DemoPage } from './views/DemoPage.tsx';
 
 export function App() {
   const cfg = readConfig();
@@ -33,7 +35,7 @@ function AppInner() {
   }
 
   if (!session) {
-    return <Login backend={backend} />;
+    return <SignedOut backend={backend} />;
   }
 
   return (
@@ -41,6 +43,12 @@ function AppInner() {
       <Page route={route} backend={backend} roles={roles} />
     </Shell>
   );
+}
+
+function SignedOut({ backend }: { backend: ReturnType<typeof createBackend> }) {
+  const [showLogin, setShowLogin] = useState(false);
+  if (showLogin) return <Login backend={backend} />;
+  return <Welcome onStart={() => setShowLogin(true)} />;
 }
 
 function Page({ route, backend, roles }: { route: Route; backend: ReturnType<typeof createBackend>; roles: ReturnType<typeof useSession>['roles'] }) {
@@ -53,6 +61,8 @@ function Page({ route, backend, roles }: { route: Route; backend: ReturnType<typ
       return <AdminPage backend={backend} roles={roles} />;
     case 'federation':
       return <FederationPage backend={backend} />;
+    case 'demo':
+      return <DemoPage />;
   }
 }
 

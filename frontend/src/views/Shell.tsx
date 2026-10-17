@@ -44,6 +44,11 @@ export function Shell({
               Förbund
             </button>
           )}
+          {showAdmin && (
+            <button className={navClass(route.kind === 'demo')} onClick={() => go('#/demo')}>
+              Demo
+            </button>
+          )}
         </nav>
         <div className="user">
           <span className="email" title={email}>

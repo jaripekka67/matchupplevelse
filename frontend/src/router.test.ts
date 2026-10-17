@@ -17,9 +17,10 @@ describe('parseRoute', () => {
     expect(parseRoute('#/team/')).toEqual({ kind: 'home' });
   });
 
-  it('admin och forbund', () => {
+  it('admin, forbund och demo', () => {
     expect(parseRoute('#/admin')).toEqual({ kind: 'admin' });
     expect(parseRoute('#/forbund')).toEqual({ kind: 'federation' });
+    expect(parseRoute('#/demo')).toEqual({ kind: 'demo' });
   });
 
   it('okänd route -> home', () => {
@@ -39,6 +40,7 @@ describe('routeHash', () => {
       { kind: 'team' as const, teamId: 'abc' },
       { kind: 'admin' as const },
       { kind: 'federation' as const },
+      { kind: 'demo' as const },
     ];
     for (const r of routes) {
       expect(parseRoute(routeHash(r))).toEqual(r);

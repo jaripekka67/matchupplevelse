@@ -50,7 +50,7 @@ Det här är arbetssättet projektet använder: databasen ligger hostad, fronten
    ```bash
    cd frontend
    npm install
-   npm run dev          # http://localhost:5173
+   npm run dev          # http://localhost:5500
    ```
    `host: true` i Vite-konfigurationen gör att du även kan öppna appen från telefonen på samma
    nätverk (adressen visas i terminalen).
@@ -73,6 +73,57 @@ att komma igång på hostad DB:
    insert into public.federation_reps (user_id)
    select id from auth.users where email = '<rep-epost>';
    ```
+   Logga in igen – nu visas **Förbund**-menyn (`#/forbund`). Vyn är ordnad per ålderskull
+   (F10, F11, P10 …, härledd ur serienamnet) med en flik per serie, och visar en
+   per-lag-sammanställning (vann stort / jämnt / förlorade stort) plus matcher med
+   "Oense"-markering när båda lagen rapporterat olika. Den läser bara **riktiga** rapporter
+   från appen; eftersom en ledare bara kan rapportera sitt eget lag ser man ofta en rapport per
+   match. För att demonstrera hela bilden (båda lagens upplevelse), använd demoläget nedan.
+
+> **Obs:** Förbundsvyns per-lag-sammanställning kräver att migrationerna är applicerade
+> (`supabase db push`), eftersom aggregatfunktionen `evenness_overview` behöver fälten
+> `competitionId`/`teamId` i svaret.
+
+## Medlemmar, lagledare och inbjudningar
+
+Första superadmin sätts med SQL (ovan), men därefter sköts **alla** föreningsmedlemmar och
+lagledare från **Admin**-vyn i appen – ingen SQL behövs. Under varje förening finns "Medlemmar"
+och under varje lag "Ledare". Fälten tar en e-post och lägger till / bjuder in.
+
+- **Har personen redan ett konto** läggs hen till direkt som medlem respektive ledare.
+- **Saknar personen konto** skapas en **väntande inbjudan** i stället (ingen e-post skickas –
+  inbjudan ligger bara som en post i databasen). Väntande inbjudningar visas i listan med en
+  **Återkalla**-knapp.
+- När personen sedan **registrerar sig med samma e-post** materialiseras inbjudningarna
+  automatiskt: hen blir föreningsmedlem och, om hen bjudits in som ledare, även lagledare.
+  Detta sköts av triggern `claim_invites_for_new_user` på `auth.users` (migration 10).
+
+En laginbjudan skapar även en väntande föreningsinbjudan om personen saknar konto, eftersom
+ett lagmedlemskap kräver att man är medlem i lagets förening. Vid registrering läggs därför
+föreningsmedlemskapet först, sedan lagledarrollen.
+
+> **Obs:** Inbjudningsflödet kräver att migration 10 (`20261015101000_inbjudningar.sql`) är
+> applicerad (`supabase db push`).
+
+## Demoläge (för demo och test, ingen databas)
+
+Appen kan bara hämta den egna föreningens matcher från FOGIS, så förbundsvyn visar normalt bara
+enstaka rapporter. För att visa upp hela serier – med påhittade utfall för **alla** lag – finns ett
+demoläge som körs helt i webbläsaren. Inget sparas i databasen och inga roller krävs; datat ligger i
+`localStorage` och kan exporteras/importeras som JSON.
+
+- Nås via **Demo** i menyn (visas för admin/superadmin) eller direkt på `#/demo`.
+- **Data-fliken:** klistra in ett spelprogram och ange ett serienamn (t.ex. `F10 C Mellersta/Västra`
+  – ålderskullen härleds ur namnet). Två inklistringsformat stöds och autodetekteras:
+  - FOGIS-exportens tab-separerade tabell (kolumnrubriker Tävling/Hemmalag/Bortalag/…).
+  - Seriesidans text (block per match, `Omgång N`, `Lag emblem Lag`, svenskt datum).
+- **Serier-fliken:** gruppflikar per ålderskull och en flik per serie. För varje match sätter man
+  utfall för båda lagen (1/2/3), och vyn visar per-lag-sammanställning och "Oense"-markering.
+- **Spara mellan demos:** datat ligger kvar i webbläsaren. Knapparna **Exportera/Importera JSON**
+  sparar en hel uppsättning till en fil (en fil i stället för flera inklistringar) och läser in den
+  igen – smidigt för att återanvända en förberedd demo. **Rensa demodata** nollställer allt.
+
+Exempeldata att klistra in finns i `data/` (t.ex. `data/ÖFF-F10C-Mellersta-Västra.txt`).
 
 ## Lokal Supabase (valfritt, kräver Docker)
 
@@ -86,7 +137,7 @@ Sätt då `frontend/.env.local` till de lokala värdena som `supabase start` skr
 (API-URL `http://127.0.0.1:54421` och den lokala anon-nyckeln).
 
 Lokala testanvändare från `seed.sql` (lösenord `password123`):
-`super@test.local` (superadmin), `admin@test.local` (föreningsadmin), `ledare@test.local` (lagledare).
+`super@test.local` (superadmin), `admin@test.local` (föreningsadmin), `ledare@test.local` (ledare).
 
 ## Tester
 

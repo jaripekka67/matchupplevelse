@@ -92,3 +92,102 @@ export function evenPercent(s: SeriesSummary): string {
   if (s.evenShare === null) return '–';
   return `${Math.round(s.evenShare * 100)} %`;
 }
+
+// ---------------------------------------------------------------------------
+// Per-lag-sammanställning och serie-gruppering för förbundsvyn (riktig DB-data).
+// En MatchReport är EN lag-rapport (ett lag som rapporterat sin match) med fältet `dominant`
+// (us/opp/even/unknown) redan lag-översatt av evenness_overview. Per-lag-raderna räknas direkt
+// därifrån, utan att para ihop hemma/borta.
+// ---------------------------------------------------------------------------
+
+/** En rad i per-lag-tabellen för en serie. */
+export type FederationStanding = {
+  teamId: string;
+  teamName: string;
+  clubName: string;
+  reports: number;
+  wonBig: number;
+  even: number;
+  lostBig: number;
+};
+
+/**
+ * Per-lag-sammanställning från lag-rapporter: hur många matcher varje lag upplevt som egen
+ * storseger (dominant 'us'), jämn ('even') eller storförlust ('opp'). 'unknown' (hemma/borta
+ * okänt) räknas som rapport men varken vinst/jämn/förlust. Sorteras på flest storsegrar, namn.
+ */
+export function federationStandings(reports: MatchReport[]): FederationStanding[] {
+  const byTeam = new Map<string, FederationStanding>();
+  for (const r of reports) {
+    let row = byTeam.get(r.teamId);
+    if (!row) {
+      row = {
+        teamId: r.teamId,
+        teamName: r.teamName,
+        clubName: r.clubName,
+        reports: 0,
+        wonBig: 0,
+        even: 0,
+        lostBig: 0,
+      };
+      byTeam.set(r.teamId, row);
+    }
+    row.reports += 1;
+    if (r.dominant === 'us') row.wonBig += 1;
+    else if (r.dominant === 'even') row.even += 1;
+    else if (r.dominant === 'opp') row.lostBig += 1;
+  }
+  return [...byTeam.values()].sort((a, b) =>
+    b.wonBig !== a.wonBig ? b.wonBig - a.wonBig : a.teamName.localeCompare(b.teamName, 'sv'),
+  );
+}
+
+/** Ålderskull/kön ur ett serienamn, t.ex. "F10 C Mellersta/Västra" -> "F10". "Övrigt" om okänt. */
+export function ageGroupOf(name: string): string {
+  const m = /^\s*([FPfp])\s*(\d{1,2})\b/.exec(name);
+  return m ? `${m[1].toUpperCase()}${m[2]}` : 'Övrigt';
+}
+
+/** Nivå-sorteringsnyckel: bokstaven efter ålderskoden (B, C, ...). Saknas den sorteras den sist. */
+export function levelKey(name: string): string {
+  const m = /^\s*[FPfp]\s*\d{1,2}\s+([A-Za-zÅÄÖåäö0-9]+)/.exec(name);
+  return m ? m[1].toUpperCase() : '\uffff';
+}
+
+/** En grupp av serier för gruppflikarna (seriesIndices pekar in i den inskickade listan). */
+export type SeriesGroup = {
+  label: string;
+  seriesIndices: number[];
+};
+
+/**
+ * Grupperar serier efter ålderskull (härledd ur namnet). Grupperna sorteras stigande med "Övrigt"
+ * sist; serierna inom en grupp sorteras på nivå (B före C), sedan namn.
+ */
+export function groupSeries(series: { name: string }[]): SeriesGroup[] {
+  const byLabel = new Map<string, number[]>();
+  series.forEach((s, i) => {
+    const label = ageGroupOf(s.name);
+    const list = byLabel.get(label) ?? [];
+    list.push(i);
+    byLabel.set(label, list);
+  });
+
+  const groups: SeriesGroup[] = [...byLabel.entries()].map(([label, idxs]) => ({
+    label,
+    seriesIndices: idxs.sort((a, b) => {
+      const la = levelKey(series[a].name);
+      const lb = levelKey(series[b].name);
+      return la !== lb
+        ? la.localeCompare(lb, 'sv')
+        : series[a].name.localeCompare(series[b].name, 'sv');
+    }),
+  }));
+
+  groups.sort((a, b) => {
+    if (a.label === 'Övrigt') return 1;
+    if (b.label === 'Övrigt') return -1;
+    return a.label.localeCompare(b.label, 'sv', { numeric: true });
+  });
+  return groups;
+}

@@ -1,0 +1,17 @@
+# Netlify-konfiguration för frontend (statisk Vite-build).
+# Databas och Edge Function ligger kvar på Supabase; Netlify hostar bara gränssnittet.
+#
+# base    = mappen Netlify kör bygget i (frontend/)
+# publish = sökväg till färdig build, RELATIVT base -> frontend/dist
+# command = byggkommandot, körs i base-mappen
+[build]
+  base = "frontend"
+  command = "npm run build"
+  publish = "dist"
+
+# SPA-fallback: appen använder hash-routing, men detta säkerställer att alla sökvägar
+# serverar index.html så att en direkt träff på t.ex. "/" alltid fungerar.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

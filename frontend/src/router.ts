@@ -11,7 +11,8 @@ export type Route =
   | { kind: 'home' }
   | { kind: 'team'; teamId: string }
   | { kind: 'admin' }
-  | { kind: 'federation' };
+  | { kind: 'federation' }
+  | { kind: 'demo' };
 
 export function parseRoute(hash: string): Route {
   // Normalisera: ta bort inledande '#', '/', och trailing '/'.
@@ -28,6 +29,8 @@ export function parseRoute(hash: string): Route {
       return { kind: 'admin' };
     case 'forbund':
       return { kind: 'federation' };
+    case 'demo':
+      return { kind: 'demo' };
     default:
       return { kind: 'home' };
   }
@@ -43,5 +46,7 @@ export function routeHash(route: Route): string {
       return '#/admin';
     case 'federation':
       return '#/forbund';
+    case 'demo':
+      return '#/demo';
   }
 }

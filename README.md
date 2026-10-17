@@ -1,6 +1,6 @@
 # Matchupplevelse
 
-Fristående webbapp där lagledare i ungdomsfotboll (upp till 7 mot 7) rapporterar hur den
+Fristående webbapp där ledare i ungdomsfotboll (upp till 7 mot 7) rapporterar hur den
 senaste spelade matchen upplevdes på en 3-gradig skala:
 
 | Värde | Betydelse |
@@ -15,9 +15,13 @@ serietabell. Ledarens upplevelse är enda datakällan.
 
 ## Roller
 
-- **Lagledare** – rapporterar matchupplevelse för sitt lags matcher. Alla ledare i truppen får rapportera.
+- **Ledare** – rapporterar matchupplevelse för sitt lags matcher. Alla ledare i truppen får rapportera.
 - **Administratör** – skapar föreningar och lag (med FOGIS-id) och importerar matcher från FOGIS.
-- **Förbundsrepresentant** – plattformsroll (satt av superadmin) som läser aggregerad data över alla föreningar och serier.
+- **Förbundsrepresentant** – plattformsroll (satt av superadmin) som läser aggregerad data över alla föreningar och serier, ordnad per ålderskull och serie med en per-lag-sammanställning.
+
+För demo och test finns ett **demoläge** (`#/demo`, visas för admin) som körs helt i webbläsaren:
+klistra in hela seriers spelprogram, sätt påhittade utfall för alla lag och visa upp förbundsvyn –
+utan att röra databasen. Se `docs/korning.md`.
 
 ## Struktur
 
@@ -51,7 +55,7 @@ serietabell. Ledarens upplevelse är enda datakällan.
    ```bash
    cd frontend
    npm install
-   npm run dev      # http://localhost:5173
+   npm run dev      # http://localhost:5500
    ```
 
 4. (Vid FOGIS-import) kör Edge Functions lokalt och sätt FOGIS-token som hemlighet.
