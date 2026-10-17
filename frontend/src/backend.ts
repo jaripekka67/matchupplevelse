@@ -288,15 +288,11 @@ function createMatchApi(client: SupabaseClient) {
 
 function createFogisApi(client: SupabaseClient) {
   return {
-    // Anropar Edge Function fogis-api. Returnerar FOGIS rå-JSON (okänd form tills live-verifierad).
+    // Anropar Edge Function fogis-api. Returnerar FOGIS rå-JSON (tolkas av importLogic).
     async games(teamId: string, from: string, to: string, clubId?: string): Promise<Result<unknown>> {
       const { data, error } = await client.functions.invoke('fogis-api', {
         body: { teamId, op: 'games', from, to, ...(clubId ? { clubId } : {}) },
       });
-      return error ? fail(error.message) : ok(data);
-    },
-    async saveSeries(teamId: string, series: unknown[]): Promise<Result<unknown>> {
-      const { data, error } = await client.rpc('save_series', { p_team: teamId, p_series: series });
       return error ? fail(error.message) : ok(data);
     },
     async importGames(teamId: string, inserts: unknown[], updates: unknown[]): Promise<Result<unknown>> {

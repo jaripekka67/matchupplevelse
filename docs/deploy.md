@@ -68,12 +68,14 @@ redirecten vid registrering/inloggning och användaren kan inte logga in från d
 - **Välkomst/inloggning visas men login fallerar:** auth-URL:erna i Supabase-dashboarden saknar
   produktionsdomänen.
 
-## FOGIS-fältmappning – att verifiera
+## FOGIS-fältmappning
 
 Importfunktionen (`frontend/src/importLogic.ts`, `normalizeFogisGame`) läser FOGIS-svaret tolerant
 och letar efter flera möjliga fältnamn (matchId/gameId/id, kickoff/matchDateTime/date,
-homeTeam/home/hemmalag osv). Den exakta formen på FOGIS-svaret för ungdomsserier (och om
-hemma/borta anges explicit) är inte verifierad mot ett riktigt svar än. Vid första skarpa
-importen: kontrollera förhandsgranskningen och justera fältnamnen i `normalizeFogisGame` om något
-saknas. Likaså `BASE`-URL och endpoint-path i `supabase/functions/fogis-api/index.ts` och
-`handler.ts` kan behöva stämmas av mot FOGIS-dokumentationen.
+homeTeam/home/hemmalag osv). Mappningen är **verifierad mot ett riktigt FOGIS-svar** via appens
+importflöde – serier, tid, hemma/borta, serienamn och plats läses korrekt. Den toleranta
+uppslagningen behålls så att små variationer i svaret tål utan kodändring.
+
+Skulle FOGIS ändra sitt svarsformat framåt: kontrollera förhandsgranskningen vid import och
+justera vid behov fältnamnen i `normalizeFogisGame`/`extractSeries`, samt `BASE`-URL och
+endpoint-path i `supabase/functions/fogis-api/index.ts` och `handler.ts`.

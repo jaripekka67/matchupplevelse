@@ -1,6 +1,8 @@
 Nästa möjliga steg (uppdaterad):
 
-(a) Köra en skarp FOGIS-import och justera fältnamn/endpoint utifrån det riktiga svaret.
+(a) KLART. Skarp FOGIS-import verifierad via appens importflöde: endpoint svarar, serier hämtas
+    och förhandsgranskningen visar matcher med korrekt tid, hemma/borta, serienamn och plats.
+    Fältmappningen i importLogic.ts behålls tolerant för att tåla små variationer i svaret.
 
 (b) KLART. Admin-UI för att lägga till föreningsmedlemmar och lagledare finns i AdminPage
     (ClubMembers/TeamMembers). Inbjudningsflödet för personer UTAN konto är nu också byggt:
@@ -9,7 +11,10 @@ Nästa möjliga steg (uppdaterad):
     (migration 10, trigger claim_invites_for_new_user på auth.users). Ingen e-post skickas –
     inbjudan ligger bara som väntande post. Se docs/korning.md för flödet.
 
-(c) Eventuellt visa seriehantering i AdminPage, eller ta bort det oanvända API:et.
+(c) KLART. Seriehantering finns redan i AdminPage (SeriesAdmin, via teams.addSeries/removeSeries).
+    Det oanvända frontend-API:et fogis.saveSeries togs bort. DB-funktionen save_series (migration 5)
+    behålls – den är deployad och testad och gör ingen skada.
 
-(d) Lägga till komponenttester för rapporterings- och importflödena. (Delvis: AdminPage.test.tsx
-    täcker nu medlems-/inbjudningsflödet; importflödet saknar fortfarande komponenttest.)
+(d) KLART. AdminPage.test.tsx täcker nu både medlems-/inbjudningsflödet och FOGIS-importflödet
+    (hämta → förhandsgranska → importera, plus felfall). Importtestet använder ett FOGIS-svar i
+    den live-verifierade formen och fungerar därmed även som regressionsskydd för fältmappningen.

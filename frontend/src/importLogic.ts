@@ -1,8 +1,8 @@
 // Ren logik för matchimport från FOGIS. Ingen DOM/Supabase – testbar.
 //
-// OBS: Exakt form på FOGIS-svaret är INTE live-verifierad än. Fältmappningen nedan
-// (normalizeFogisGame) är tolerant och letar efter flera möjliga fältnamn. Den MÅSTE
-// verifieras mot ett riktigt FOGIS-svar (Task 10/12 live-test) och justeras vid behov.
+// Fältmappningen (normalizeFogisGame) är verifierad mot ett riktigt FOGIS-svar via appens
+// importflöde: serier, tid, hemma/borta, serienamn och plats läses korrekt. Mappningen är
+// medvetet tolerant (provar flera möjliga fältnamn) så att den tål små variationer i svaret.
 // Allt annat (dedup, diff mot befintliga, byggande av insert/update-listor) är oberoende
 // av exakt fältnamn och fullt testat.
 

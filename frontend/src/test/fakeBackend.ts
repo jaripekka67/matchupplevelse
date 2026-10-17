@@ -42,7 +42,6 @@ export function makeFakeBackend(overrides: DeepPartial<Backend> = {}): Backend {
     },
     fogis: {
       games: async () => ok({}),
-      saveSeries: async () => ok({}),
       importGames: async () => ok({ created: 0, updated: 0, skipped: 0 }),
     },
     federation: {
